@@ -1,0 +1,23 @@
+[ERROR]      7e44f1f5c8c [13/03/26 13:39:36.228]  81977.main copy_mme_bag:229 copyPreferredMobileMeName failed
+[ERROR]      7e44f233b26 [13/03/26 13:39:36.228]  81977.main ubd_main:2705 null personid
+[ERROR]      7e452c158d8 [13/03/26 13:39:36.289]  81977.main db_prepare_blocking:1278 conn#0 active (create|first-open|in-txn|for-update|can-rollback), owner:main, retains:1, changes:0-0 can't prepare 'select max(local_rank) from item_table;': db error 1 (no such table: item_table)
+[ERROR]      7e452c22398 [13/03/26 13:39:36.289]  81977.main iidb_has_schema:4773 failed to prepare 'select max(local_rank) from item_table;'
+[ERROR]      7e461467e50 [13/03/26 13:39:36.533] {FFFFFFFF} 81977.main copy_mme_bag:229 copyPreferredMobileMeName failed
+[ERROR]      7e462068fba [13/03/26 13:39:36.545] {FFFFFFFF} 81977.main ubd_main:2876 No identities defined.
+[warn]       7e4627f1a2f [13/03/26 13:39:36.553] {FFFFFFFF} 81977.main set_computer_name:114 Not setting the computer name without a collection/config only mode
+[ERROR]      7e462c5c0c5 [13/03/26 13:39:36.558] {FFFFFFFF} 81977.com.apple.ubiquity.SRConnection.callouts.0x7fdcf2c24680 get_collection_status:939 no collection config found for default
+[ERROR]      7e4685aa4e9 [13/03/26 13:39:36.652] {FFFFFFFF} 81977.com.apple.ubiquity.SRConnection.callouts.0x7fdcf2c24680 get_collection_status:939 no collection config found for default
+[ERROR]      b7cdb0bdfed [13/03/26 14:45:30.107]  93525.main copy_mme_bag:229 copyPreferredMobileMeName failed
+[ERROR]      b7cdb12f39f [13/03/26 14:45:30.107]  93525.main ubd_main:2705 null personid
+[ERROR]      b7ce383e557 [13/03/26 14:45:30.249] {FFFFFFFF} 93525.main copy_mme_bag:229 copyPreferredMobileMeName failed
+[ERROR]      b7ceeea6c5e [13/03/26 14:45:30.440] {FFFFFFFF} 93525.main ubd_main:2876 No identities defined.
+[warn]       b7cef90eec4 [13/03/26 14:45:30.451] {FFFFFFFF} 93525.main set_computer_name:114 Not setting the computer name without a collection/config only mode
+[ERROR]      b7cf0b4626c [13/03/26 14:45:30.470] {FFFFFFFF} 93525.com.apple.ubiquity.SRConnection.callouts.0x7f9212810360 get_collection_status:939 no collection config found for default
+[ERROR]      b7cf43522dd [13/03/26 14:45:30.529] {FFFFFFFF} 93525.com.apple.ubiquity.SRConnection.callouts.0x7f9212810360 get_collection_status:939 no collection config found for default
+[ERROR]      c93bc10d422 [13/03/26 15:05:28.003]  96273.main copy_mme_bag:229 copyPreferredMobileMeName failed
+[ERROR]      c93bc1250fd [13/03/26 15:05:28.003]  96273.main ubd_main:2705 null personid
+[ERROR]      c93bd596b8b [13/03/26 15:05:28.024] {FFFFFFFF} 96273.main copy_mme_bag:229 copyPreferredMobileMeName failed
+[ERROR]      c93beef6743 [13/03/26 15:05:28.051] {FFFFFFFF} 96273.main ubd_main:2876 No identities defined.
+[warn]       c93bf0495ff [13/03/26 15:05:28.052] {FFFFFFFF} 96273.main set_computer_name:114 Not setting the computer name without a collection/config only mode
+[ERROR]      c93bf3e4b34 [13/03/26 15:05:28.056] {FFFFFFFF} 96273.com.apple.ubiquity.SRConnection.callouts.0x7ffdd2439410 get_collection_status:939 no collection config found for default
+[ERROR]      c93c171daff [13/03/26 15:05:28.093] {FFFFFFFF} 96273.com.apple.ubiquity.SRConnection.callouts.0x7ffdd2439410 get_collection_status:939 no collection config found for default

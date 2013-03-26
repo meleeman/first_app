@@ -1,0 +1,48 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... build-aux/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-apple-darwin12.3.0
+checking host system type... x86_64-apple-darwin12.3.0
+configure: autobuild project... GNU Autoconf
+configure: autobuild revision... 2.69
+configure: autobuild hostname... Joses-MacBook-Pro.local
+configure: autobuild timestamp... 20130326T165928Z
+checking whether /bin/sh -n is known to work... yes
+checking for characters that cannot appear in file names... none
+checking whether directories can have trailing spaces... yes
+checking for expr... /bin/expr
+checking for GNU M4 that supports accurate traces... /usr/bin/m4
+checking whether /usr/bin/m4 accepts --gnu... no
+configure: WARNING: the version of M4 that was found does not support -g
+configure: WARNING: using it with POSIXLY_CORRECT set may cause problems
+checking how m4 supports trace files... --error-output
+checking for perl... /usr/bin/perl
+checking whether /usr/bin/perl Fcntl::flock is implemented... yes
+checking for emacs... emacs
+checking whether emacs is sufficiently recent... yes
+checking for emacs... emacs
+checking where .elc files should go... ${datarootdir}/emacs/site-lisp
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /Users/meleeman/.homebrew/Library/ENV/4.3/sed
+checking whether make is case sensitive... yes
+configure: creating ./config.status
+config.status: creating tests/Makefile
+config.status: creating tests/atlocal
+config.status: creating man/Makefile
+config.status: creating lib/emacs/Makefile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/Autom4te/Makefile
+config.status: creating lib/autoscan/Makefile
+config.status: creating lib/m4sugar/Makefile
+config.status: creating lib/autoconf/Makefile
+config.status: creating lib/autotest/Makefile
+config.status: creating bin/Makefile
+config.status: executing tests/atconfig commands

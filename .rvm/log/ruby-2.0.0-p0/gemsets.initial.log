@@ -1,0 +1,24 @@
+[2013-03-26 13:19:40] __rvm_with
+Importing initial gemsets for ruby-2.0.0-p0.
+paths: /Users/meleeman/.rvm/gemsets/ruby/2.0.0/p0 /Users/meleeman/.rvm/gemsets/ruby/2.0.0 /Users/meleeman/.rvm/gemsets/ruby /Users/meleeman/.rvm/gemsets
+
+Installing gems listed in /Users/meleeman/.rvm/gemsets/ruby/2.0.0/global.gems file...
+
+[32minstalling rubygems-bundler ...(B[m....
+rubygems-bundler  installed.
+awk: syntax error at source line 1
+ context is
+	{if (NR==1){printf "[32minstalling bundler >>>  ">= <<< 
+awk: illegal statement at source line 1
+awk: illegal statement at source line 1
+Error running 'env GEM_HOME=/Users/meleeman/.rvm/gems/ruby-2.0.0-p0@global GEM_PATH=/Users/meleeman/.rvm/gems/ruby-2.0.0-p0@global gem install --remote bundler --version >=1.3.0.pre.8',
+please read /Users/meleeman/.rvm/log/ruby-2.0.0-p0/gem.install.log
+bundler ">=1.3.0.pre.8" failed to install ( output logged to: /Users/meleeman/.rvm/log/ruby-2.0.0-p0/gem.install.log )
+[32minstalling rake ...(B[m....
+rake  installed.
+[32minstalling rvm ...(B[m....
+rvm  installed.
+
+Processing of /Users/meleeman/.rvm/gemsets/ruby/2.0.0/global.gems is complete.
+
+Installation of gems for ruby-2.0.0-p0 is complete.

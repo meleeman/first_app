@@ -1,0 +1,19 @@
+[2013-03-26 15:17:09] requirements_brew_libs_install
+Warning: It appears you have MacPorts or Fink installed.
+Software installed with other package managers causes known problems for
+Homebrew. If a formula fails to build, uninstall MacPorts/Fink and try again.
+==> Downloading http://r.research.att.com/tools/gcc-42-5666.3-darwin11.pkg
+==> Caveats
+NOTE:
+This formula provides components that were removed from XCode in the 4.2
+release. There is no reason to install this formula if you are using a
+version of XCode prior to 4.2.
+
+This formula contains compilers built from Apple's GCC sources, build
+5666.3, available from:
+
+  http://opensource.apple.com/tarballs/gcc
+
+All compilers have a `-4.2` suffix. A GFortran compiler is also included.
+==> Summary
+🍺  /Users/meleeman/.homebrew/Cellar/apple-gcc42/4.2.1-5666.3: 104 files, 75M, built in 4.9 minutes

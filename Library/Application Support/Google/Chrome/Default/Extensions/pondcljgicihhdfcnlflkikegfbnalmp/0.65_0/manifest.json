@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "icon128.png",
+      "popup": "popup.html"
+   },
+   "description": "Make notes from selected text on webpages.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqysDU1OGT41ja2c08MjbRsFlAmUMMvVXnq8qsR+PT2KK/eFL2FKNVqQeLjDbEfx3jhjxqVKCUpXTzlLUbK19DzzwdJ6dp4Pfx+Qns2qacxwdnB8ChFJUJaSmtobxwwkg0Kuwkrn8XzJ9GR1QoWdNGeI8fyi/QSFSAICXvgE4ASwIDAQAB",
+   "name": "Catch.com Google Chrome Extension",
+   "permissions": [ "tabs", "notifications", "https://catch.com/", "https://snaptic.com/", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.65"
+}

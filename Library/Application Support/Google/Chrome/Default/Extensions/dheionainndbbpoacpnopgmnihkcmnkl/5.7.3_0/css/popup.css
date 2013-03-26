@@ -1,0 +1,18 @@
+body{background:#fff}
+.popup{width:260px;height:auto;padding:0 5px;font:13px Helvetica,Arial,sans-serif;color:#333}
+a{text-decoration:none;color:#4b8df8}a:hover{text-decoration:underline}
+h4{background:url(../icon/iconpop.png) no-repeat 0 0;padding-left:30px;height:19px;display:block;width:100%;}
+h4 .v{display:inline-block;background-color:#D14836;border-radius:3px;color:#fff;font-weight:normal;margin-left:20px;padding:3px 6px}
+.links ul{display:inline-block;margin:0;padding:0}
+.links ul li{display:inline-block;}
+
+.links li a{color:#444;padding:2px 7px;border:1px solid #dadada;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0.22,#fff),color-stop(0.61,#f4f4f4));margin-right:5px;border-radius:3px;text-shadow:0 1px 1px #fff}
+.links ul li:last-child a{margin-right:0}
+
+.links li a:hover{text-decoration:none;color:#111;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0.22,#f4f4f4),color-stop(0.61,#fff));}
+p{font-size:12px;line-height:19px;text-align:justify}
+p.copyright{color:#777;text-align:center;font-size:11px}
+
+
+
+

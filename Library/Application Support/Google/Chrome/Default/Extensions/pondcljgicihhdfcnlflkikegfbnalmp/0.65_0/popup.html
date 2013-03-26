@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="catch-com.css" type="text/css" />
+        <script type="text/javascript">
+var mpq = [];
+mpq.push(["init", "3a53d037b8b3d0acdec43029eca9f726"]);
+(function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";
+b.async=true;b.src="mixpanel_051612.js";a=document.getElementsByTagName("script")[0];
+a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push(
+[f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links",
+"track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<
+d.length;c++){mpq[d[c]]=e(d[c])}})();
+mpq.register({'Client': 'chrome extension'});
+mpq.register({'Market': 'chrome store'});
+if (localStorage["already_run"] == "true") {
+    mpq.register({'First Launch': false});
+} else {
+    localStorage["already_run"] = "true";
+    mpq.register({'First Launch': true});
+}
+
+function getVersion(callback) {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open('GET', 'manifest.json');
+        xmlhttp.onload = function (e) {
+            var manifest = JSON.parse(xmlhttp.responseText);
+            callback(manifest.version);
+        }
+        xmlhttp.send(null);
+}
+ 
+getVersion(function (ver) { 
+        mpq.register({'Client Version': ver});
+});
+        </script>
+        <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="catch-com.js"></script>
+    </head>
+    <body>
+        <form id="account-form">
+            <input type="hidden" id="noteText" value="" name="noteText" />
+            <div class="formIntro">
+                Please log in to Catch.com to add the selection as a note.
+            </div>
+            <div class="bad-up">Invalid username or password</div>
+            <div class="inputLabel">
+                username or email
+            </div>
+            <div class="username">
+                <input type="text" id="username" value="" name="username" />
+            </div>
+            <div class="inputLabel">
+                password
+            </div>
+            <div class="password">
+                <input type="password" id="password" name="password" />
+            </div>
+                <button id="signIn" type="submit" class="button green submit">
+                    sign in
+                </button>
+            <p>
+                <a id="gSignIn">
+                    Sign in with a Google account
+                </a>
+            </p>
+            <p>
+<b>Don't have an account?</b>  <a id="createAccount">Sign Up!</a>
+            </p>
+        </form>
+        <form action="" id="note-form" method="post">
+            <div id="username-display"></div>
+            <div id="notearea">
+                <textarea id="noteText" name=""></textarea>
+            </div>
+            <div style="display:none:">
+                <input type="hidden" id="bearer_token" name="bearer_token"
+                 value="" />
+            </div>
+            <button type="submit" class="button green submit">
+                post note
+            </button>
+        </form>
+        <div id="note-posted">
+            <span class="notification"></span>
+            <div class="postedNoteText"></div>
+        </div>
+    </body>
+</html>

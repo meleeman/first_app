@@ -1,0 +1,6 @@
+2013-03-25 18:21:44:791|SyncServer|344|0x7fcdf0c0be10|Logging|Info| Logging initialized, engine version 713 : log level 3
+2013-03-25 18:21:49:078|SafariSyncClient|342|0x7fd208c0c510|ISyncManager|Info| unregister com.apple.Safari
+2013-03-25 18:21:49:254|SyncServer|344|0x7fcdf0c0be10|Server|Info| unregister client com.apple.Safari
+2013-03-25 18:21:49:612|SafariSyncClient|342|0x7fd208c0c510|ISyncManager|Info| register client com.apple.Safari from /Applications/Safari.app/Contents/SafariSyncClient.app/Contents/Resources/SafariClientDescription.plist (bundleId = (null), bundleRelativePath = (null))
+2013-03-25 18:23:49:907|SyncServer|344|0x7fcdf0c0be10|Server|Info| Cancelling all sync plans.
+2013-03-25 18:23:49:911|SyncServer|344|0x7fcdf0c0be10|Server|Info| Goodnight, Gracie.

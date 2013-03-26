@@ -1,0 +1,205 @@
+#!/usr/bin/env bash
+
+# Logging functions
+
+# check if user wants colors and if output goes to terminal
+# rvm_pretty_print_flag:
+# - 0|no    - disabled always
+# - 1|auto  - automatic depending if the output goes to terminal (default)
+# - 2|force - forced always
+# to select which terminal output should be checked use first param:
+# - stdout - for stdout (default)
+# - stderr - for stderr
+# - number - for the given terminal fd
+# - else   - for both stdout and stderr
+rvm_pretty_print()
+{
+  case "${rvm_pretty_print_flag:=auto}" in
+    (0|no)
+      return 1
+      ;;
+    (1|auto)
+      case "${TERM:-dumb}" in
+        (dumb|unknown) return 1 ;;
+      esac
+      case "$1" in
+        (stdout)      [[ -t 1           ]] || return 1 ;;
+        (stderr)      [[ -t 2           ]] || return 1 ;;
+        ([[:digit:]]) [[ -t $1          ]] || return 1 ;;
+        (any)         [[ -t 1  || -t 2  ]] || return 1 ;;
+        (*)           [[ -t 1  && -t 2  ]] || return 1 ;;
+      esac
+      return 0
+      ;;
+    (2|force)
+      return 0
+      ;;
+  esac
+}
+
+case "${TERM:-dumb}" in
+  (dumb|unknown)
+    rvm_error_clr=""
+    rvm_warn_clr=""
+    rvm_debug_clr=""
+    rvm_notify_clr=""
+    rvm_reset_clr=""
+    ;;
+  (*)
+    if
+      [[ -z "${rvm_error_clr:-}" || ${rvm_reload_flag:-0} -eq 1 ]]
+    then
+      export rvm_error_clr rvm_warn_clr rvm_debug_clr rvm_notify_clr rvm_reset_clr
+      rvm_error_clr="$(  "${rvm_scripts_path:-${rvm_path}/scripts}/color" "${rvm_error_color:-red}"     )"
+      rvm_warn_clr="$(   "${rvm_scripts_path:-${rvm_path}/scripts}/color" "${rvm_warn_color:-yellow}"   )"
+      rvm_debug_clr="$(  "${rvm_scripts_path:-${rvm_path}/scripts}/color" "${rvm_debug_color:-magenta}" )"
+      rvm_notify_clr="$( "${rvm_scripts_path:-${rvm_path}/scripts}/color" "${rvm_notify_color:-green}"  )"
+      rvm_reset_clr="$(  "${rvm_scripts_path:-${rvm_path}/scripts}/color" "${rvm_reset_color:-reset}"   )"
+    fi
+    ;;
+esac
+
+rvm_error()
+{
+  if rvm_pretty_print stderr
+  then printf "%b" "${rvm_error_clr:-}$*${rvm_reset_clr:-}\n"
+  else printf "%b" "$*\n"
+  fi >&2
+}
+rvm_help()
+{
+  "${rvm_scripts_path}/help" "$@"
+}
+rvm_error_help()
+{
+  rvm_error "$1"
+  shift
+  rvm_help "$@"
+}
+rvm_fail()
+{
+  rvm_error "$1"
+  exit "${2:-1}"
+}
+rvm_warn()
+{
+  if rvm_pretty_print stdout
+  then printf "%b" "${rvm_warn_clr:-}$*${rvm_reset_clr:-}\n"
+  else printf "%b" "$*\n"
+  fi
+}
+rvm_debug()
+{
+  (( ${rvm_debug_flag:-0} )) || return 0
+  if rvm_pretty_print stderr
+  then printf "%b" "${rvm_debug_clr:-}$*${rvm_reset_clr:-}\n"
+  else printf "%b" "$*\n"
+  fi >&2
+}
+rvm_debug_stream()
+{
+  (( ${rvm_debug_flag:-0} || ${rvm_trace_flag:-0} )) || return 0
+  if rvm_pretty_print stdout
+  then cat - | awk '{print "'"${rvm_debug_clr:-}"'"$0"'"${rvm_reset_clr:-}"'"}'
+  else cat -
+  fi >&2
+}
+rvm_log()
+{
+  if rvm_pretty_print stdout
+  then printf "%b" "${rvm_notify_clr:-}$*${rvm_reset_clr:-}\n"
+  else printf "%b" "$*\n"
+  fi
+}
+__rvm_dotted()
+{
+  typeset flush __show_nth_dot
+  __show_nth_dot=${rvm_show_every_nth_dot:-1}
+  unset rvm_show_every_nth_dot
+
+  if (( __show_nth_dot == 1 ))
+  then __show_nth_dot=""
+  else __show_nth_dot="if (NR%${__show_nth_dot}==1)"
+  fi
+
+  if awk '{fflush;}' <<<EO 2>/dev/null
+  then flush=fflush
+  else flush=flush
+  fi
+
+  if (( $# ))
+  then awk '{if (NR==1){printf "'"${rvm_notify_clr:-}$*${rvm_reset_clr:-}"'"}; '"$__show_nth_dot"' printf "."; '$flush';} END{if (NR>0) print ""; else print "'"${rvm_notify_clr:-}$*${rvm_reset_clr:-}"'"}'
+  else awk '{printf "."; '$flush';} END{if (NR>0) print ""}'
+  fi
+}
+__rvm_log_dotted()
+{
+  typeset __log_file __message __iterator
+  __log_file="$1"
+  __message="$2"
+  shift 2
+  "$@" 2>&1 | tee -a "${__log_file}" | __rvm_dotted "${__message}" || return $?
+  for __iterator in ${PIPESTATUS[@]} ${pipestatus[@]}
+  do
+    case "${__iterator}" in
+      ("") true ;;
+      (0)  true ;;
+      (*)  return ${__iterator} ;;
+    esac
+  done
+  return 0
+}
+__rvm_every_nth_dot()
+{
+  typeset result=0
+  export rvm_show_every_nth_dot=$1  # show dot for every nth line
+  shift
+  "$@" || result=$?
+  unset rvm_show_every_nth_dot
+  return $result
+}
+__rvm_wait_anykey()
+{
+  if [[ -n "${1:-}" ]]
+  then echo "$1"
+  fi
+  typeset _read_char_flag
+  if [[ -n "${ZSH_VERSION:-}" ]]
+  then _read_char_flag=k
+  else _read_char_flag=n
+  fi
+  builtin read -${_read_char_flag} 1 -s -r anykey
+}
+__rvm_table_br()
+{
+  typeset width=${COLUMNS:-78}
+  width=$(( width > 116 ? 116 : width ))
+  printf "%-${width}s\n" " " | sed 's/ /*/g'
+}
+__rvm_fold()
+{
+  if fold -s -w 10 <<<bla >/dev/null
+  then fold -s -w $1
+  else fold    -w $1
+  fi
+}
+__rvm_table_wrap_text()
+{
+  typeset width=${COLUMNS:-78}
+  width=$(( width > 116 ? 116 : width ))
+  width=$(( width - 4 )) # "* <content> *"
+  __rvm_fold $width | awk -v width=$width '{printf "* %-"width"s *\n", $0}'
+}
+# echo text | __rvm_table [header]
+__rvm_table()
+{
+  if
+    [[ -n "${1:-}" ]]
+  then
+    __rvm_table_br
+    echo "$1" | __rvm_table_wrap_text
+  fi
+  __rvm_table_br
+  cat "${2:--}" | __rvm_table_wrap_text
+  __rvm_table_br
+}

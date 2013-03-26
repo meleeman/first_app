@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Active</key>
+		<true/>
+		<key>GroupValue</key>
+		<integer>-1</integer>
+		<key>InternalTorrentPath</key>
+		<string>/Users/meleeman/Library/Application Support/Transmission/Torrents/Sublime Text 2.0.1 Build 2217.5c6464aaeb5cf62d.torrent</string>
+		<key>RemoveWhenFinishSeeding</key>
+		<false/>
+		<key>TorrentHash</key>
+		<string>5c6464aaeb5cf62de4d10291af9c3d849429a2c2</string>
+		<key>WaitToStart</key>
+		<false/>
+	</dict>
+</array>
+</plist>

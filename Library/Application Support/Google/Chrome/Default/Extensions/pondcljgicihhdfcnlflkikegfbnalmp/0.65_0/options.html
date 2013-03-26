@@ -1,0 +1,50 @@
+<html>
+<head><title>Catch.com Google Chrome Extension Options</title></head>
+<script type="text/javascript">
+
+// Saves options to localStorage.
+function save_options() {
+  var includeURLcb = document.getElementById("include_url");
+  var includeTitlecb = document.getElementById("include_title");
+  var includeURL = includeURLcb.checked;
+  var includeTitle = includeTitlecb.checked;
+  localStorage["include_url"] = includeURL;
+  localStorage["include_title"] = includeTitle
+
+  // Update status to let user know options were saved.
+  var status = document.getElementById("status");
+  status.innerHTML = "Options Saved.";
+  setTimeout(function() {
+    status.innerHTML = " ";
+  }, 750);
+}
+
+// Restores checkbox state to saved value from localStorage.
+function restore_options() {
+    var options = ["include_url", "include_title"];
+    for (var i=0; i<options.length; i++) {
+        var item = options[i];
+        if (localStorage[item] != "true") {
+            document.getElementById(item).checked = false;
+        } else {
+            document.getElementById(item).checked = true;
+        }
+    }
+}
+
+</script>
+
+<body onload="restore_options()">
+
+    <p>Include page URL in note: <input type="checkbox" id="include_url" /></p>
+
+    <p>Include page title in note: <input type="checkbox" id="include_title" /></p>
+
+<br>
+<button onclick="save_options()">Save</button>
+<div id="status">
+
+</div>
+</body>
+</html>
+

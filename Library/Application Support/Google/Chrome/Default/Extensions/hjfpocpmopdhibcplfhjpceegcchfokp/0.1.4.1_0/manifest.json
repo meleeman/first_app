@@ -1,0 +1,25 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Lifehacker"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/jquery-1.6.1.min.js", "scripts/reset.js" ],
+      "matches": [ "http://lifehacker.com/*", "http://blog.lifehacker.com/" ]
+   } ],
+   "description": "Keep up with the latest from Lifehacker.",
+   "homepage_url": "http://lifehacker.com/",
+   "icons": {
+      "128": "images/Lifehacker.128.png",
+      "16": "images/icon.png",
+      "48": "images/Lifehacker.48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCg46rDRiDWDia2Y6juoPtlCnPjj3hQ83T90bIE7/d2KKlEc697cZpHv44+oJjBIO1fW3hDNe7/aKE+kWfGpfd9jxTm7XeDzIvMSasO5wfiUn1S3LcidG5QId+g5fPXX0BPFT+hnWUs1Nya70uBbJwvytK4Mf3UkzB5SVy0yU6PcwIDAQAB",
+   "name": "Lifehacker Notifier",
+   "options_page": "options.html",
+   "permissions": [ "http://lifehacker.com/*", "http://feeds.gawker.com/*", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.4.1"
+}

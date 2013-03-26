@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+
+requirements_centos_lib_installed()
+{
+  rpm -q --whatprovides "$1" >/dev/null || return $?
+}
+
+requirements_centos_libs_install()
+{
+  __rvm_try_sudo yum install -y "$@" || return $?
+}
+
+requirements_centos_ensure_libs()
+{
+  typeset -a packages_installed packages_missing packages_to_install
+  __rvm_filter_installed_packages centos "$@" || return $?
+}
+
+requirements_centos_run()
+{
+  case "$1" in
+    (update-system)
+      true
+      ;;
+    (rvm)
+      requirements_centos_ensure_libs bash curl git patch
+      ;;
+    (jruby*)
+      if (( ${_system_version%%.*} >= 16 ))
+      then requirements_centos_ensure_libs java-1.7.0-openjdk
+      else requirements_centos_ensure_libs java
+      fi
+      ;;
+    (ir*)
+      true # not that easy
+      ;;
+    (opal)
+      true # not that easy
+      ;;
+    (*)
+      requirements_centos_ensure_libs gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison libxml2-devel libxslt-devel
+      ;;
+  esac
+}
+
+requirements_fedora_run()
+{
+  requirements_centos_run "$@"
+}
+
+requirements_redhat_run()
+{
+  requirements_centos_run "$@"
+}

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [[ -s "/Users/meleeman/.rvm/environments/ruby-2.0.0-p0" ]]
+then
+  source "/Users/meleeman/.rvm/environments/ruby-2.0.0-p0"
+  exec ruby "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/Users/meleeman/.rvm/environments/ruby-2.0.0-p0'" >&2
+  exit 1
+fi

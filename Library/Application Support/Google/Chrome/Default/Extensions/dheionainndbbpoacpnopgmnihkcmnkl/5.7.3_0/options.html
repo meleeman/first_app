@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Gmelius&trade; | Options</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEANgA
+SgA4Fck/bwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9sMDg06Hd91/Y0AAAAZdEVYdENv
+bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAACGUlEQVQ4y42TPUxUURCFv7nvvvd2+XFB5U9A
+JWziGlRiJYUmJlqYNdr4U5loo1ZGGhM1NIYYrQgWdlYaKytrKxpjQYgYi21EwajRwgiywNt9e8di
+4eljQ+I092bmnDNzcu9IqTgyAYwCAqDOYTu76bh8nW3HTyHGsEUoMCml4oj7S66R3X+IvvFJvOYW
+/iPUpjrv7GbPxJM0QhURAcBFa4gfIMZs5MUmIGvpHXuQIm2ci1Ov+PniGa68jAkC2s5eoP30OVQV
+CyAIfm8/mcF9ACny79dTfLt/B7EW1if5+nAMFHIni0ipOKIax2w/f4nOqzcbTJbOHIVanNhQVQSQ
+MMTLtdcn0Dgme+BwA7n8bgZdXsI0NdeJnofxg6ReW1rEKkCtStDb3yBQ/bIA1oIqqJIdGqbn1j00
+ihKMFcA5RbLZBgFXrdQfSQRUMUGIv6MjhTEKiOfhFn81CHgtrUn3rcKKKupZovk5MvlCqpjJF9Bq
+BcIQVHFrq0SfP6GVCqD4HV1YRBBrKc9OkztRTAmEuwfIFA5SWZhDjGHl/Vs+XrsICBrHdI/exbBu
+YXV2Gre2im4ad9ftcbxcGxpXwdXqdpzD7+wi6Okj+YnVH98pz07TeuRY6idmBvLsffyclZk3RPMf
+kCBD09AwYb6AzbWRLJOqIn7A4NOX2Fx7agf+vW/aETXAJKAiglYi5m9cIVqYSxE2k9dzCjz6A3tq
+5A7+l4XiAAAAAElFTkSuQmCC">
+<!-- CSS -->
+<link rel='stylesheet' type='text/css' href='css/options.css' />
+<link rel='stylesheet' type='text/css' href='css/fonts.css' />
+<!-- JS -->
+<script src="js/jquery.js"></script>
+<script src="js/options.js"></script>
+</head>
+
+<body>
+<div id="fb-root"></div>
+<div id="main-content">
+
+<div id="navbar-container">
+<h1 id="navbar-content-title">UI Preferences</h1>
+
+<div id="paypal">
+<h3 class="love" id="hlove"></h3>
+<p id="lovetxt"></p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<p>
+<input type="hidden" name="cmd" value="_donations" />
+<input name="business" value="VX7F8AMVUY35W" type="hidden" />
+<input name="item_name" value="Gmelius, A Better Gmail" type="hidden" />
+<input name="no_note" value="0" type="hidden" />              
+<input name="tax" value="0" type="hidden" />
+<input name="no_shipping" value="1" type="hidden" />
+<input name="return" value="#" type="hidden" />
+<input class="text pay" type="number" name="amount" step="0.50" min="2.50" value="3.50" title="enter your amount" />
+<select name="currency_code" title="choose your currency">
+<option value="USD">USD ($)</option>
+<option value="EUR">EUR (€)</option>
+<option value="GBP">GBP (£)</option>
+<option value="CHF">CHF (Fr)</option>
+</select>
+</p>
+<p>
+
+<input class="button" type="submit" value="Donate to Gmelius" />
+
+<span class="payp"><i class="icon-lock"></i>Powered by PayPal</span>
+
+</p>
+</form>
+
+
+</div>
+<div class="df">
+<a href="http://gmelius.com" target="_blank">Official Page</a> - <a href="https://chrome.google.com/webstore/support/dheionainndbbpoacpnopgmnihkcmnkl" target="_blank">Help & Bugs</a>
+<br>
+<p id="translate"></p>
+</div>
+
+<div class="footer">
+&copy; <span id="year"></span> Gmelius&trade;. All Rights Reserved. By <a href="http://florianbersier.com" target="_blank">Florian Bersier</a>.
+<span id="translated"></span>
+
+Gmail, trademark of <a href="http://google.com" target="_blank">Google Inc.</a>
+</div>
+
+
+</div><!--#navbar-container-->
+
+<div id="mainview">
+<div id="mainview-content" class="page">
+
+<h1><span>Gmelius, <span class="motto">towards a better Gmail !</span></span></h1>
+
+<div class="displaytable">
+<section>
+<h3>Version <span id="version"></span></h3>
+<div>
+<p class="notice" id="welcome"></p>
+
+<ul class="socials">
+<li><a class="fac" href="https://www.facebook.com/adremover" target="_blank" title="Follow Gmelius on Facebook"><i class="icon-facebook"></i>Gmelius on Facebook</a>
+<li><a class="goo" href="https://plus.google.com/107464590830116243309/" target="_blank" title="Follow Gmelius on Google+"><i class="icon-google-plus"></i>Gmelius on Google+</a>
+<li><a class="twi" href="https://twitter.com/gmeliusTM" target="_blank" title="Follow Gmelius on Twitter"><i class="icon-twitter"></i>Gmelius on Twitter</a>
+</ul>
+</div>
+</section>
+
+<section>
+<div class="forg"><i class="icon-check"></i><span id="tip"></span></div>
+<h3 id="hoptions"></h3>
+
+
+
+<div id="options">
+<form>
+
+<h4 id="h4space"></h4>
+
+<p id="spacetxt"></p><a class="helpf" href="http://gmelius.com/#features" target="_blank" title="Get more information about Gmelius settings"><i class="icon-info-sign"></i><span id="moreinfo"></span></a>
+<div class="prefs-box">
+<ul class="three">
+<li><input type="checkbox" id="ads" /><label for="ads" id="lads"></label>
+<li><input type="checkbox" id="enlarge" /><label for="enlarge"><span id="lenlarge"></span> <a class="question" title="This is the space at the right of your emails. Ads must be removed for this feature to work." href="#"><i class="icon-question-sign"></i></a></label>
+<li><input type="checkbox" id="footer" /><label for="footer" id="lfooter"></label>
+</ul>
+
+<ul class="three">
+<li><input type="checkbox" id="statusc" /><label for="statusc" id="lstatusc"></label>
+<li><input type="checkbox" id="searchsc" /><label for="searchsc" id="lsearchsc"></label>
+<li><input type="checkbox" id="avablesc" /><label for="avablesc" id="lavablesc"></label>
+</ul>
+
+<ul class="three">
+<li><input type="checkbox" id="chat" /><label for="chat" id="lchat"></label>
+<li><input type="checkbox" id="akc" /><label for="akc" id="lakc"></label>
+<li><input type="checkbox" id="emptinbox" /><label for="emptinbox" id="lemptinbox"></label>
+</ul>
+
+<ul class="three">
+<li class="bl"><input type="checkbox" id="mouse" /><label for="mouse" id="lmouse"></label>
+<li class="bl"><input type="checkbox" id="consider" /><label for="consider" id="lconsider"></label>
+<li>
+</ul>
+
+</div>
+
+<h4 id="h4header"></h4>
+<div class="prefs-box">
+<ul class="one">
+<li><input type="checkbox" id="header" /><label for="header"><span id="lheader"></span> <a class="question" title="Header will appear/disappear by clicking on a new 'Search' button in the top navigation bar." href="#"><i class="icon-question-sign"></i></a></label>
+<li><input type="checkbox" id="key" /><label for="key"><span id="lkey"></span> <select id="keytype"><option value="g,q" selected>keys "g + q"</option><option value="alt+shift+q">keys "Alt + shift + q"</option><option value="↓,→">keys "↓ + →"</option></select> <a class="question" title="Auto-expandable header must be enabled for this keyboard shortcut to work." href="#"><i class="icon-question-sign"></i></a></label>
+<li><input type="checkbox" id="backtop" /><label for="backtop" id="lbacktop"></label>
+
+<li><input type="checkbox" id="inbox" /><label for="inbox" id="linbox"></label>
+
+<li><input type="checkbox" id="voice" /><label for="voice" id="lvoice"></label>
+
+<li><input type="checkbox" id="reader" /><label for="reader" id="lreader"></label>
+
+<li><input type="checkbox" id="playy" /><label for="playy" id="lplayy"></label>
+
+</ul>
+
+</div>
+
+
+<h4 id="h4inbox"></h4>
+
+<div class="prefs-box">
+<ul class="one">
+<li><input type="checkbox" id="defrow" /><label for="defrow" id="ldefrow"></label>
+<li class="pr">
+<input type="checkbox" id="row" />
+<label for="row" id="lrow"></label> <input class="select" id="color" type="color" value="#F6FF92" list="color" />
+<datalist id="colors">
+  <option>#ff0000</option> 
+  <option>#0000ff</option> 
+  <option>#00ff00</option> 
+  <option>#ffff00</option> 
+  <option>#00ffff</option> 
+</datalist>
+
+<li><input type="checkbox" id="btnnav" /><label for="btnnav" id="lbtnnav"></label>
+<li><input type="checkbox" id="coloriz" /><label for="coloriz" id="lcoloriz"></label>
+<li><input type="checkbox" id="fonts" /><label for="fonts" id="lfonts"></label>
+<li><input type="checkbox" id="labelsr" /><label for="labelsr" id="llabelsr"></label>
+<li><input type="checkbox" id="attleft" /><label for="attleft" id="lattleft"></label>
+
+</ul>
+
+</div>
+
+<h4 id="h4icons"></h4>
+
+<p id="iconstxt"></p>
+<div class="prefs-box">
+<ul class="three">
+<li class="bl"><input type="checkbox" id="atticons" /><label for="atticons"><span id="latticons"></span> <span class="gdoc ico"></span><span class="gpdf ico"></span> <a href="http://support.google.com/drive/bin/answer.py?hl=en&answer=2375110" target="_blank" title="Click for more details"><i class="icon-question-sign"></i></a></label>
+<li class="bl"><input type="checkbox" id="msicons" /><label for="msicons"><span id="lmsicons"></span> <span class="doc ico"></span><span class="pdf ico"></span></label>
+<li class="bl"><input type="checkbox" id="bwicons" /><label for="bwicons" id="lbwicons"></label>
+</ul>
+
+</div>
+
+</form>
+
+<br />
+<button disabled="disabled" id="save"><i class="icon-save"></i> <span id="savebtn"></span></button>
+<input id="uncheckall" type="checkbox"></input> <label for="uncheckall" id="unchecklabel"></label>
+<p id="notifysav"><span id="changes"></span></p>
+<p class="footnote" id="footsettings"></p>
+</div>
+
+</section>
+
+<section>
+<h3 id="hfeedback"></h3>
+<div>
+
+<button id="btn-feedback"><i class="icon-comments-alt"></i> <span id="feedbackbtn"></span></button>
+<p class="footnote" id="footbugs"></p>
+</div>
+</section>
+
+<div id="updates"></div>
+<section>
+<h3 id="hupdates"></h3>
+<div>
+<button id="update"><i class="icon-refresh"></i> <span id="updatebtn"></span></button><br />
+<p class="footnote"><span id="footupdate"></span> <a href="https://www.facebook.com/adremover" title="Follow Gmelius on Facebook" target="_blank">Facebook</a>, <a href="https://plus.google.com/107464590830116243309/" title="Follow Gmelius on Google+" target="_blank">Google+</a> or <a href="https://twitter.com/gmeliusTM" title="Follow Gmelius on Twitter" target="_blank">Twitter</a>.</p>
+
+</div>
+
+</section>
+
+</div><!--#displaytable-->
+</div><!--#mainviewcontent-->
+</div><!--#mainview-->
+</div><!--#main-content-->
+</body>
+</html>

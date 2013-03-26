@@ -1,0 +1,238 @@
+{
+   "archive": {
+      "description": "Archive button.",
+      "message": "Archiveren"
+   },
+   "changes": {
+      "description": "Changes saved. Check your Gmail.",
+      "message": "Instellingen opgeslagen. Check je Gmail"
+   },
+   "delete": {
+      "description": "Delete button.",
+      "message": "Verwijderen"
+   },
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "Gmelius customizes Gmail's interface to your liking and strips away the ads. Featured on TechCrunch, Lifehacker and other high-profile technology sites."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Gmelius - Ad Blocker and Better UI for Gmail\u2122"
+   },
+   "feedbackbtn": {
+      "description": "Leave Feedback.",
+      "message": "Geef je mening"
+   },
+   "footbugs": {
+      "description": "Footnote Bugs.",
+      "message": "Voel je vrij je mening te geven, suggesties te doen en bugs te melden. Geef wel altijd door wat je besturingssyteem is, de versie van Chrome die je gebruikt en die van Gmelius zelf als je een bug doorgeeft. Bijvoorbeeld: Windows 8 - Chrome 18 - Gmelius 5.1."
+   },
+   "footsettings": {
+      "description": "Footnote Settings.",
+      "message": "Je kan wanneer je maar wilt je voorkeuren bekijken en aanpassen. Dit doe je door op het icoon van de extensie te klikken, rechts van de adresbalk, of \"gmelius options\" te typen in de adresbalk. Zo makkelijk is dat!"
+   },
+   "footupdate": {
+      "description": "Footnote Updates.",
+      "message": "Zorg ervoor dat altijd de laatste versie is geinstalleerd. Om je extensie te updaten, vind \"ontwikkelaarsmodus\" aan en klik op \"Extensies nu bijwerken\". Updates worden aangekondigd via"
+   },
+   "h4header": {
+      "description": "Gmail header.",
+      "message": "Gmail&trade; Header"
+   },
+   "h4icons": {
+      "description": "Icons header.",
+      "message": "Voeg bijlage-icoontjes toe"
+   },
+   "h4inbox": {
+      "description": "Gmail inbox header.",
+      "message": "Gmail&trade; Inbox"
+   },
+   "h4space": {
+      "description": "Space Gmail.",
+      "message": "Weer wat ruimte in je Gmail&trade;"
+   },
+   "hfeedback": {
+      "description": "Feedback and Suggestions header.",
+      "message": "Feedback en suggesties"
+   },
+   "hlove": {
+      "description": "Support Gmelius header.",
+      "message": "Steun Gmelius"
+   },
+   "hoptions": {
+      "description": "Options header.",
+      "message": "Opties"
+   },
+   "hupdates": {
+      "description": "Updates header.",
+      "message": "Updates"
+   },
+   "iconstxt": {
+      "description": "Icons Inbox.",
+      "message": "In je Gmail-inbox worden bijlages aangegeven met een paperclip. Maar wat nu als er andere icoontjes getoond worden op basis van het soort bestand dat bij je e-mail hoort? Meer dan 40 verschillende formaten worden ondersteund."
+   },
+   "labels": {
+      "description": "Labels button.",
+      "message": "Labels"
+   },
+   "lads": {
+      "description": "Ads.",
+      "message": "Advertenties"
+   },
+   "lakc": {
+      "description": "Chat & Calendar widgets.",
+      "message": "Chat & Kalender widgets"
+   },
+   "latticons": {
+      "description": "Google icons.",
+      "message": "Google iconen"
+   },
+   "lattleft": {
+      "description": "Move attachment icons from the right to the left or your inbox.",
+      "message": "Verplaats de bijlage iconen van rechts naar links in je inbox"
+   },
+   "lavablesc": {
+      "description": "Chat availability.",
+      "message": "Beschikbaarheid chat"
+   },
+   "lbacktop": {
+      "description": "Auto-Scroll.",
+      "message": "Scroll automatisch naar de top van je inbox \u00E0 la Google+ door te klikken op de donkergrijze topbalk"
+   },
+   "lbtnnav": {
+      "description": "Add text to navigation icons such as Archive, Spam, Delete.",
+      "message": "Voeg tekst toe aan de navigatiebuttons zoals \"Archief\", \"Spam\", en \"Verwijderen\" etc."
+   },
+   "lbwicons": {
+      "description": "Make icons black and white.",
+      "message": "Maak iconen zwart en wit"
+   },
+   "lchat": {
+      "description": "Chat.",
+      "message": "Chat"
+   },
+   "lcoloriz": {
+      "description": "Colourize navigation icons such as Archive, Spam, Delete, etc.",
+      "message": "Geef de navigatiebuttons zoals \"Archief\", \"Spam\", en \"Verwijderen\" een kleur"
+   },
+   "lconsider": {
+      "description": "Consider including.",
+      "message": "\"Overweeg ook\" bij het opstellen van je emails"
+   },
+   "ldefrow": {
+      "description": "Enable subtle row highlight when mouse over your emails.",
+      "message": "Schakel subtiele rij-highlights in wanneer je met de muis over je emails gaat"
+   },
+   "lemptinbox": {
+      "description": "No new mail! message.",
+      "message": "Geen nieuwe mails!-bericht"
+   },
+   "lenlarge": {
+      "description": "People Widget.",
+      "message": "Personen widget"
+   },
+   "lfonts": {
+      "description": "Homogenize the appearance of your incoming emails.",
+      "message": "Geef het uiterlijk van alle inkomende emails hetzelfde weer, bv standaard lettertype, -grootte en -kleur"
+   },
+   "lfooter": {
+      "description": "Footer.",
+      "message": "Bodemtekst"
+   },
+   "lheader": {
+      "description": "Header.",
+      "message": "Maak de header (zoekbalk en logo) in/uitklapbaar"
+   },
+   "linbox": {
+      "description": "Go back to Inbox by clicking on the Google logo.",
+      "message": "Ga terug naar Inbox door te klikken op het Google logo"
+   },
+   "lkey": {
+      "description": "Key to press to make header visible/hidden.",
+      "message": "Druk toets om de header te tonen/verbergen:"
+   },
+   "llabelsr": {
+      "description": "Move labels of your messages from the left to the right of your inbox.",
+      "message": "Verplaats de labels van je berichten van links naar rechts in je inbox"
+   },
+   "lmouse": {
+      "description": "scrollbars and scroll Gmail with mouse wheel/touchpad.",
+      "message": "scrollbalken en scroll Gmail met muiswiel/touchpad"
+   },
+   "lmsicons": {
+      "description": "Microsoft icons.",
+      "message": "Microsoft iconen"
+   },
+   "lovetxt": {
+      "description": "Donation text.",
+      "message": "Help de ontwikkeling van Gmelius door een kleine donatie te doen."
+   },
+   "lplayy": {
+      "description": "Remove Google Play from the top nav bar.",
+      "message": "Verwijder Google Play uit de navigatiebalk"
+   },
+   "lreader": {
+      "description": "Replace Google News by Google Reader in the top nav bar.",
+      "message": "Verwissel Google News met Google Reader in de navigatiebalk"
+   },
+   "lrow": {
+      "description": "Enable subtle row highlight with customized color.",
+      "message": "Schakel subtiele rij-highlights met een aangepaste kleur in wanneer je met de muis over je emails gaat"
+   },
+   "lsearchsc": {
+      "description": "Chat search box.",
+      "message": "Chat zoekvakje"
+   },
+   "lstatusc": {
+      "description": "Chat statuses.",
+      "message": "Chat status"
+   },
+   "lvoice": {
+      "description": "Add Google Voice to top navigation bar.",
+      "message": "Voeg Google Voice toe aan de navigatiebalk"
+   },
+   "moreinfo": {
+      "description": "More information link.",
+      "message": "Meer informatie (with pictures)"
+   },
+   "move": {
+      "description": "Move button.",
+      "message": "Verplaatsen naar"
+   },
+   "savebtn": {
+      "description": "Save button.",
+      "message": "Sla mijn instellingen op"
+   },
+   "spacetxt": {
+      "description": "Regain some space.",
+      "message": "Gmelius geeft je de mogelijkheid om ruimte te winnen en je inbox op te schonen door onderdelen uit te schakelen/te verwijderen:"
+   },
+   "spam": {
+      "description": "Spam button.",
+      "message": "Spam"
+   },
+   "tip": {
+      "description": "Tip message.",
+      "message": "Tik om de mogelijkheid te activeren. Vergeet niet je instelling op te slaan."
+   },
+   "translate": {
+      "description": "Translate this page.",
+      "message": ""
+   },
+   "translated": {
+      "description": "Translated by John Smith.",
+      "message": "Translated by \u003Ca href=\"https://plus.google.com/110338956314502156807\" target=\"_blank\"\u003EDuncan Krebbers\u003C/a\u003E"
+   },
+   "unchecklabel": {
+      "description": "Uncheck all.",
+      "message": "Alles uitvinken"
+   },
+   "updatebtn": {
+      "description": "Update Gmelius.",
+      "message": "Update Gmelius"
+   },
+   "welcome": {
+      "description": "Welcome message.",
+      "message": "Leuk dat je \u003Ca href=\"http://gmelius.com\" target=\"_blank\"\u003EGmelius\u003C/a\u003E gebruikt! Met onze software heb je kwaliteit in huis. We zorgen steeds voor nieuwe mogelijkheden en corrigeren bugs op regelmatige basis. Nu je dit weet kun je je voorstellen dat we je aanbevelen Gmelius te volgen op je favoriete sociale netwerk."
+   }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>http://developer.apple.com/rss/com.apple.adc.documentation.AppleOSX10_8.atom/20130128092249</id>
+    <title type="text">Apple OS X 10.8</title>
+    <rights>Copyright © 2013 Apple Inc. All rights reserved.</rights>
+    <link rel="self" href="http://developer.apple.com/rss/com.apple.adc.documentation.AppleOSX10_8.atom"></link>
+    <docset:publisherName>Apple</docset:publisherName>
+    <docset:publisherID>com.apple.adc.documentation</docset:publisherID>
+    <updated>2013-01-29T17:44:17-08:00</updated>
+    <entry>
+        <id>tag:developer.apple.com,2012-09-18:com.apple.adc.documentation.AppleOSX10_8.CoreReference/415.10.0</id>
+        <title type="text">OS X 10.8 Core Library</title>
+        <updated>2012-09-18T18:34:04-07:00</updated>
+        <content type="text">OS X 10.8 Core Library (v415.10.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="https://devimages.apple.com.edgekey.net/docsets/20120919/com.apple.adc.documentation.AppleOSX10_8.CoreReference.xar" length="555017600"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleOSX10_8.CoreReference</docset:identifier>
+        <docset:version>415.10.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.4.0</docset:minimumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2013-01-28:com.apple.adc.documentation.AppleOSX10_8.CoreReference/417.5.0</id>
+        <title type="text">OS X 10.8 doc set</title>
+        <updated>2013-01-28T09:22:49-08:00</updated>
+        <content type="text">OS X 10.8 doc set (v417.5.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20130128/com.apple.adc.documentation.AppleOSX10_8.CoreReference.xar" length="585502184"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleOSX10_8.CoreReference</docset:identifier>
+        <docset:version>417.5.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.6.0</docset:minimumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2013-01-29:com.apple.adc.documentation.AppleOSX10_8.CoreReference/417.6.0</id>
+        <title type="text">OS X 10.8 doc set</title>
+        <updated>2013-01-29T17:44:17-08:00</updated>
+        <content type="text">OS X 10.8 doc set (v417.6.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20130130/com.apple.adc.documentation.AppleOSX10_8.CoreReference.xar" length="585375100"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleOSX10_8.CoreReference</docset:identifier>
+        <docset:version>417.6.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.6.0</docset:minimumXcodeVersion>
+    </entry>
+</feed>

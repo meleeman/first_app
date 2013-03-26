@@ -1,0 +1,238 @@
+{
+   "archive": {
+      "description": "Archive button.",
+      "message": "\u05DC\u05D0\u05E8\u05DB\u05D9\u05D5\u05DF"
+   },
+   "changes": {
+      "description": "Changes saved. Check your Gmail.",
+      "message": "\u05D4\u05D4\u05D2\u05D3\u05E8\u05D5\u05EA \u05E0\u05E9\u05DE\u05E8\u05D5, \u05D0\u05E0\u05D0 \u05D1\u05D3\u05E7\u05D5 \u05D0\u05EA \u05EA\u05D9\u05D1\u05EA \u05D4- Gmail \u05E9\u05DC\u05DB\u05DD"
+   },
+   "delete": {
+      "description": "Delete button.",
+      "message": "\u05DE\u05D7\u05E7"
+   },
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "Gmelius customizes Gmail's interface to your liking and strips away the ads. Featured on TechCrunch, Lifehacker and other high-profile technology sites."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Gmelius - Ad Blocker and Better UI for Gmail\u2122"
+   },
+   "feedbackbtn": {
+      "description": "Leave Feedback.",
+      "message": "\u05DC\u05D4\u05E9\u05D0\u05D9\u05E8 \u05D0\u05EA \u05D4\u05DE\u05E9\u05D5\u05D1"
+   },
+   "footbugs": {
+      "description": "Footnote Bugs.",
+      "message": "\u05D3\u05D1\u05E8\u05D5. \u05D0\u05DC \u05EA\u05EA\u05D1\u05D9\u05D9\u05E9\u05D5 \u05DC\u05E9\u05DC\u05D5\u05D7 \u05DC\u05E0\u05D5 \u05D0\u05EA \u05D4\u05E2\u05E8\u05D5\u05EA\u05DB\u05DD \u05D5\u05D4\u05D5\u05D3\u05E2\u05D5\u05EA \u05E2\u05DC \u05EA\u05E7\u05DC\u05D5\u05EA. \u05D1\u05DB\u05DC \u05D4\u05D5\u05D3\u05E2\u05D4, \u05D1\u05D1\u05E7\u05E9\u05D4 \u05E6\u05D9\u05D9\u05E0\u05D5 \u05D0\u05EA \u05D2\u05E8\u05E1\u05EA Chrome \u05D5\u05D0\u05EA \u05D2\u05E8\u05E1\u05EA Gmelius, \u05DB\u05DE\u05D5 \u05DC\u05DE\u05E9\u05DC Mac, Crome 18 \u05D5- Gmelius 5.1"
+   },
+   "footsettings": {
+      "description": "Footnote Settings.",
+      "message": "\u05D0\u05EA\u05DD \u05D9\u05DB\u05D5\u05DC\u05D9\u05DD \u05DC\u05E7\u05D1\u05DC \u05D2\u05D9\u05E9\u05D4 \u05DC\u05D4\u05D2\u05D3\u05E8\u05D5\u05EA \u05D5\u05DC\u05E9\u05E0\u05D5\u05EA \u05D0\u05D5\u05EA\u05DD \u05D1\u05DB\u05DC \u05DE\u05E7\u05D5\u05DD \u05E2''\u05D9 \u05DC\u05D7\u05D9\u05E6\u05D4 \u05E2\u05DC \u05D0\u05D9\u05E7\u05D5\u05DF \u05D0\u05D5 \u05E2''\u05D9 \u05DB\u05EA\u05D9\u05D1\u05EA \u05DE\u05D9\u05DC\u05D4 gmelius \u05D1\u05E9\u05D5\u05E8\u05EA \u05D4\u05DB\u05EA\u05D5\u05D1\u05EA. \u05D6\u05D4 \u05DE\u05D0\u05D3 \u05E4\u05E9\u05D5\u05D8!"
+   },
+   "footupdate": {
+      "description": "Footnote Updates.",
+      "message": "\u05DB\u05D3\u05D9 \u05DC\u05E2\u05D3\u05DB\u05DF, \u05D1\u05D1\u05E7\u05E9\u05D4 \u05E1\u05DE\u05E0\u05D5 ''\u05DE\u05E6\u05D1 \u05DE\u05E4\u05EA\u05D7'' \u05D5\u05DC\u05D7\u05E6\u05D5 \u05E2\u05DC \u05DB\u05E4\u05EA\u05D5\u05E8 ''\u05E2\u05D3\u05DB\u05DF \u05E2\u05DB\u05E9\u05D9\u05D5''. \u05D4\u05D5\u05D3\u05E2\u05D5\u05EA \u05D0\u05D5\u05D3\u05D5\u05EA \u05D4\u05E2\u05D3\u05DB\u05D5\u05E0\u05D9\u05DD \u05DE\u05EA\u05E4\u05E8\u05E1\u05DE\u05D9\u05DD \u05D1\u05E4\u05D9\u05D9\u05E1\u05D1\u05D5\u05E7, \u05D8\u05D5\u05D5\u05D9\u05D8\u05E8, \u05D2\u05D5\u05D2\u05DC+ \u05D5\u05E2\u05D5\u05D3. \u05D0\u05E0\u05D0 \u05D5\u05D5\u05D3\u05D0\u05D5 \u05E9\u05D0\u05EA\u05DD \u05DE\u05E9\u05EA\u05DE\u05E9\u05D9\u05DD \u05D1\u05D2\u05E8\u05E1\u05D0 \u05D4\u05E2\u05D3\u05DB\u05E0\u05D9\u05EA."
+   },
+   "h4header": {
+      "description": "Gmail header.",
+      "message": "\u05DB\u05D5\u05EA\u05E8\u05EA Gmail"
+   },
+   "h4icons": {
+      "description": "Icons header.",
+      "message": "Add attachment icons"
+   },
+   "h4inbox": {
+      "description": "Gmail inbox header.",
+      "message": "\u05D3\u05D5\u05D0''\u05DC \u05E0\u05DB\u05E0\u05E1"
+   },
+   "h4space": {
+      "description": "Space Gmail.",
+      "message": "\u05EA\u05D7\u05D6\u05D9\u05E8\u05D5 \u05DC\u05D9 \u05D0\u05EA \u05D4\u05DE\u05E7\u05D5\u05DD \u05D1\u05D1\u05E7\u05E9\u05D4 \u05D1- Gmail \u05E9\u05DC\u05D9"
+   },
+   "hfeedback": {
+      "description": "Feedback and Suggestions header.",
+      "message": "\u05E9\u05DE\u05E8\u05D5 \u05E2\u05DC \u05E7\u05E9\u05E8 \u05D5\u05D4\u05E6\u05E2\u05D5\u05EA \u05DC\u05E9\u05D9\u05E4\u05D5\u05E8"
+   },
+   "hlove": {
+      "description": "Support Gmelius header.",
+      "message": "\u05E2\u05D6\u05E8\u05D5 \u05DC\u05E0\u05D5 \u05DC\u05DE\u05DE\u05DF \u05D0\u05EA Gmelius"
+   },
+   "hoptions": {
+      "description": "Options header.",
+      "message": "\u05D0\u05E4\u05E9\u05E8\u05D5\u05D9\u05D5\u05EA"
+   },
+   "hupdates": {
+      "description": "Updates header.",
+      "message": "\u05E2\u05D3\u05DB\u05D5\u05E0\u05D9\u05DD"
+   },
+   "iconstxt": {
+      "description": "Icons Inbox.",
+      "message": "\u05D1\u05D3\u05D5\u05D0''\u05DC \u05E0\u05DB\u05E0\u05E1, \u05DB\u05DC \u05E1\u05D5\u05D2 \u05E9\u05DC \u05E6\u05E8\u05D5\u05E4\u05D4 \u05DE\u05E1\u05D5\u05DE\u05DF \u05D1\u05D0\u05D9\u05E7\u05D5\u05DF \u05D0\u05D7\u05D9\u05D3. \u05DE\u05D4 \u05D0\u05DD \u05DB\u05DC \u05E1\u05D5\u05D2 \u05E9\u05DC \u05E6\u05E8\u05D5\u05E4\u05D4 \u05D9\u05D5\u05E6\u05D2 \u05E2\u05DD \u05D0\u05D9\u05E7\u05D5\u05DF \u05D0\u05D7\u05E8? \u05DB\u05E8\u05D2\u05E2, \u05D0\u05E0\u05D7\u05E0\u05D5 \u05EA\u05D5\u05DE\u05DB\u05D9\u05DD \u05D1\u05D9\u05D5\u05EA\u05E8 \u05DE-40 \u05E1\u05D5\u05D2\u05D9\u05DD \u05E9\u05D5\u05E0\u05D9\u05DD"
+   },
+   "labels": {
+      "description": "Labels button.",
+      "message": "\u05EA\u05D5\u05D5\u05D9\u05D5\u05EA"
+   },
+   "lads": {
+      "description": "Ads.",
+      "message": "\u05E4\u05E8\u05E1\u05D5\u05DE\u05D5\u05EA"
+   },
+   "lakc": {
+      "description": "Chat & Calendar widgets.",
+      "message": "\u05D7\u05DC\u05D5\u05E0\u05D9\u05EA \u05E6'\u05D0\u05D8 \u05D5\u05D9\u05D5\u05DE\u05DF"
+   },
+   "latticons": {
+      "description": "Google icons.",
+      "message": "\u05D0\u05D9\u05E7\u05D5\u05E0\u05D9\u05DD \u05E9\u05DC \u05D2\u05D5\u05D2\u05DC"
+   },
+   "lattleft": {
+      "description": "Move attachment icons from the right to the left or your inbox.",
+      "message": "\u05D4\u05D6\u05D6\u05EA \u05D0\u05D9\u05E7\u05D5\u05E0\u05D9\u05DD \u05D0\u05D5\u05D3\u05D5\u05EA \u05E6\u05E8\u05D5\u05E4\u05D5\u05EA \u05DE\u05E9\u05DE\u05D0\u05DC \u05DC\u05D9\u05DE\u05D9\u05DF \u05D1\u05D3\u05D5\u05D0''\u05DC"
+   },
+   "lavablesc": {
+      "description": "Chat availability.",
+      "message": "\u05E6'\u05D0\u05D8 \u05D6\u05DE\u05D9\u05DF"
+   },
+   "lbacktop": {
+      "description": "Auto-Scroll.",
+      "message": "\u05D2\u05DC\u05D9\u05DC\u05D4 \u05D0\u05D5\u05D8\u05D5\u05DE\u05D8\u05D9\u05EA \u05DC\u05DE\u05DC\u05D4 \u05D1\u05DC\u05D7\u05D9\u05E6\u05D4 \u05E2\u05DC \u05EA\u05E4\u05E8\u05D9\u05D8 \u05E2\u05DC\u05D9\u05D5\u05DF"
+   },
+   "lbtnnav": {
+      "description": "Add text to navigation icons such as Archive, Spam, Delete.",
+      "message": "\u05D4\u05D5\u05E1\u05E4\u05EA \u05D8\u05E7\u05E1\u05D8 \u05DC\u05D0\u05D9\u05E7\u05D5\u05E0\u05D9\u05DD (\u05DC\u05DE\u05E9\u05DC \u05D0\u05E8\u05DB\u05D9\u05D5\u05DF, \u05E1\u05E4\u05D0\u05DD, \u05DE\u05D7\u05D9\u05E7\u05D4 \u05D5\u05DB\u05D3')"
+   },
+   "lbwicons": {
+      "description": "Make icons black and white.",
+      "message": "\u05D4\u05E4\u05D5\u05E3 \u05D0\u05D9\u05E7\u05D5\u05E0\u05D9\u05DD \u05DC\u05E9\u05D7\u05D5\u05E8/\u05DC\u05D1\u05DF"
+   },
+   "lchat": {
+      "description": "Chat.",
+      "message": "\u05E6'\u05D0\u05D8"
+   },
+   "lcoloriz": {
+      "description": "Colourize navigation icons such as Archive, Spam, Delete, etc.",
+      "message": "\u05D4\u05D5\u05E1\u05E4\u05EA \u05E6\u05D1\u05E2 \u05DC\u05D0\u05D9\u05E7\u05D5\u05E0\u05D9\u05DD (\u05DC\u05DE\u05E9\u05DC \u05D0\u05E8\u05DB\u05D9\u05D5\u05DF, \u05E1\u05E4\u05D0\u05DD, \u05DE\u05D7\u05D9\u05E7\u05D4 \u05D5\u05DB\u05D3')"
+   },
+   "lconsider": {
+      "description": "Consider including.",
+      "message": "''\u05D4\u05D5\u05E1\u05E3 \u05D2\u05DD'' \u05D1\u05D6\u05DE\u05DF \u05DB\u05EA\u05D9\u05D1\u05EA \u05D3\u05D5\u05D0''\u05DC \u05D7\u05D3\u05E9"
+   },
+   "ldefrow": {
+      "description": "Enable subtle row highlight when mouse over your emails.",
+      "message": "\u05D4\u05D3\u05D2\u05E9\u05D4 \u05E9\u05D5\u05E8\u05D5\u05EA \u05D1\u05DE\u05E2\u05D1\u05E8 \u05E2''\u05D9 \u05E2\u05DB\u05D1\u05E8"
+   },
+   "lemptinbox": {
+      "description": "No new mail! message.",
+      "message": "\u05D4\u05D5\u05D3\u05E2\u05D5\u05EA \u05D0\u05D5\u05D3\u05D5\u05EA \u05D3\u05D5\u05D0''\u05DC \u05D7\u05D3\u05E9"
+   },
+   "lenlarge": {
+      "description": "People Widget.",
+      "message": "\u05D7\u05DC\u05D5\u05E0\u05D9\u05EA \u05D0\u05D5\u05D3\u05D5\u05EA \u05D0\u05E0\u05E9\u05D9\u05DD"
+   },
+   "lfonts": {
+      "description": "Homogenize the appearance of your incoming emails.",
+      "message": "\u05D0\u05D7\u05D9\u05D3\u05D5\u05EA \u05D1\u05D3\u05D5\u05D0''\u05DC \u05E0\u05DB\u05E0\u05E1 (\u05D2\u05D5\u05E4\u05DF, \u05E6\u05D1\u05E2 \u05D5\u05DB\u05D3')"
+   },
+   "lfooter": {
+      "description": "Footer.",
+      "message": "Footer"
+   },
+   "lheader": {
+      "description": "Header.",
+      "message": "\u05E4\u05EA\u05D9\u05D7\u05EA ''\u05DB\u05D5\u05EA\u05E8\u05EA'' \u05D0\u05D5\u05D8\u05D5\u05DE\u05D8\u05D9\u05EA (\u05E9\u05D3\u05D4 \u05D7\u05D9\u05E4\u05D5\u05E9 \u05D5\u05DC\u05D5\u05D2\u05D5)"
+   },
+   "linbox": {
+      "description": "Go back to Inbox by clicking on the Google logo.",
+      "message": "\u05DC\u05D7\u05D6\u05D5\u05E8 \u05DC\u05D3\u05D5\u05D0''\u05DC \u05E0\u05DB\u05E0\u05E1 \u05D1\u05DC\u05D7\u05D9\u05E6\u05D4 \u05E2\u05DC \u05DC\u05D5\u05D2\u05D5 Google"
+   },
+   "lkey": {
+      "description": "Key to press to make header visible/hidden.",
+      "message": "\u05DC\u05D4\u05E6\u05D9\u05D2/\u05DC\u05D4\u05E1\u05EA\u05D9\u05E8 \u05D0\u05EA \u05D4\u05DB\u05D5\u05EA\u05E8\u05EA \u05D1\u05DC\u05D7\u05D9\u05E6\u05D4 \u05E2\u05DC \u05DB\u05E4\u05EA\u05D5\u05E8:"
+   },
+   "llabelsr": {
+      "description": "Move labels of your messages from the left to the right of your inbox.",
+      "message": "\u05D4\u05D6\u05D6\u05EA \u05EA\u05D2\u05D9\u05D5\u05EA \u05DE\u05E9\u05DE\u05D0\u05DC \u05DC\u05D9\u05DE\u05D9\u05DF \u05D1\u05D3\u05D5\u05D0''\u05DC"
+   },
+   "lmouse": {
+      "description": "scrollbars and scroll Gmail with mouse wheel/touchpad.",
+      "message": "\u05E4\u05E1\u05D9 \u05D2\u05DC\u05D9\u05DC\u05D4 (\u05E0\u05D9\u05EA\u05DF \u05DC\u05D2\u05DC\u05D5\u05DC \u05D1\u05D0\u05DE\u05E6\u05E2\u05D5\u05EA \u05E2\u05DB\u05D1\u05E8)"
+   },
+   "lmsicons": {
+      "description": "Microsoft icons.",
+      "message": "\u05D0\u05D9\u05E7\u05D5\u05E0\u05D9\u05DD \u05E9\u05DC \u05DE\u05D9\u05E7\u05E8\u05D5\u05E1\u05D5\u05E4\u05D8"
+   },
+   "lovetxt": {
+      "description": "Donation text.",
+      "message": "\u05D1\u05D0\u05E4\u05E9\u05E8\u05D5\u05EA\u05DB\u05DD \u05DC\u05EA\u05DE\u05D5\u05DA \u05D1\u05E4\u05D9\u05EA\u05D5\u05D7 \u05E9\u05DC Gmelius \u05E2''\u05D9 \u05EA\u05E8\u05D5\u05DE\u05D4 \u05E7\u05D8\u05E0\u05D4"
+   },
+   "lplayy": {
+      "description": "Remove Google Play from the top nav bar.",
+      "message": "\u05DC\u05D4\u05E1\u05D9\u05E8 \u05DE\u05EA\u05E4\u05E8\u05D9\u05D8 \u05E2\u05DC\u05D9\u05D5\u05DF \u05D0\u05EA Google Play"
+   },
+   "lreader": {
+      "description": "Replace Google News by Google Reader in the top nav bar.",
+      "message": "\u05DC\u05D4\u05D7\u05DC\u05D9\u05E3 \u05D0\u05EA Google News \u05DC- Google Reader \u05D1\u05EA\u05E4\u05E8\u05D9\u05D8 \u05E2\u05DC\u05D9\u05D5\u05DF"
+   },
+   "lrow": {
+      "description": "Enable subtle row highlight with customized color.",
+      "message": "\u05D4\u05D3\u05D2\u05E9\u05D4 \u05E9\u05D5\u05E8\u05D5\u05EA \u05D1\u05E6\u05D1\u05E2 \u05D0\u05D9\u05E9\u05D9 \u05D1\u05DE\u05E2\u05D1\u05E8 \u05E2''\u05D9 \u05E2\u05DB\u05D1\u05E8"
+   },
+   "lsearchsc": {
+      "description": "Chat search box.",
+      "message": "\u05E9\u05D3\u05D4 \u05D7\u05D9\u05E4\u05D5\u05E9 \u05D1\u05E6'\u05D0\u05D8"
+   },
+   "lstatusc": {
+      "description": "Chat statuses.",
+      "message": "\u05E1\u05D8\u05D0\u05D8\u05D5\u05E1 \u05E9\u05DC\u05D9 \u05D1\u05E6'\u05D0\u05D8"
+   },
+   "lvoice": {
+      "description": "Add Google Voice to top navigation bar.",
+      "message": "\u05D4\u05D5\u05E1\u05E4\u05EA Google Voice \u05DC\u05EA\u05E4\u05E8\u05D9\u05D8 \u05E2\u05DC\u05D9\u05D5\u05DF"
+   },
+   "moreinfo": {
+      "description": "More information link.",
+      "message": "\u05DC\u05E4\u05E8\u05D8\u05D9\u05DD \u05E0\u05D5\u05E1\u05E4\u05D9\u05DD"
+   },
+   "move": {
+      "description": "Move button.",
+      "message": "\u05D4\u05E2\u05D1\u05E8 \u05D0\u05DC"
+   },
+   "savebtn": {
+      "description": "Save button.",
+      "message": "\u05E9\u05DE\u05D9\u05E8\u05EA \u05D4\u05D2\u05D3\u05E8\u05D5\u05EA"
+   },
+   "spacetxt": {
+      "description": "Regain some space.",
+      "message": "\u05EA\u05D5\u05DB\u05E0\u05EA Gmelius \u05DE\u05D0\u05E4\u05E9\u05E8\u05EA \u05DC\u05D4\u05D7\u05D6\u05D9\u05E8 \u05DE\u05E7\u05D5\u05DD \u05E2''\u05D9 \u05E0\u05D9\u05E7\u05D5\u05D9 \u05EA''\u05D3 \u05D1\u05E2\u05D6\u05E8\u05EA \u05DB\u05DC\u05D4\u05DC\u05DF:"
+   },
+   "spam": {
+      "description": "Spam button.",
+      "message": "\u05E1\u05E4\u05D0\u05DD"
+   },
+   "tip": {
+      "description": "Tip message.",
+      "message": "\u05E1\u05DE\u05DF \u05DB\u05D3\u05D9 \u05DC\u05D4\u05E4\u05E2\u05D9\u05DC \u05D0\u05E4\u05E9\u05E8\u05D5\u05D9\u05D5\u05EA. \u05D0\u05DC \u05EA\u05E9\u05DB\u05D7\u05D5 \u05DC\u05E9\u05DE\u05D5\u05E8 \u05D4\u05D2\u05D3\u05E8\u05D5\u05EA."
+   },
+   "translate": {
+      "description": "Translate this page.",
+      "message": ""
+   },
+   "translated": {
+      "description": "Translated by John Smith.",
+      "message": "Translated by Vadim Solovey"
+   },
+   "unchecklabel": {
+      "description": "Uncheck all.",
+      "message": "\u05D1\u05D9\u05D8\u05D5\u05DC \u05D1\u05D7\u05D9\u05E8\u05D4"
+   },
+   "updatebtn": {
+      "description": "Update Gmelius.",
+      "message": "\u05DC\u05E2\u05D3\u05DB\u05DF \u05D0\u05EA Gmelius"
+   },
+   "welcome": {
+      "description": "Welcome message.",
+      "message": "\u05EA\u05D5\u05D3\u05D4 \u05E2\u05DC \u05DB\u05DA \u05E9\u05D0\u05EA\u05DD \u05DE\u05E9\u05EA\u05DE\u05E9\u05D9\u05DD \u05D1- \u003Ca href=\"http://gmelius.com\" target=\"_blank\"\u003EGmelius\u003C/a\u003E. \u05D0\u05E0\u05D7\u05E0\u05D5 \u05E2\u05D5\u05D1\u05D3\u05D9\u05DD \u05E7\u05E9\u05D4 \u05DB\u05D3\u05D9 \u05DC\u05E1\u05E4\u05E7 \u05DC\u05DB\u05DD \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D0\u05D9\u05DB\u05D5\u05EA\u05D9\u05EA \u05DB\u05DE\u05D4 \u05E9\u05D9\u05D5\u05EA\u05E8. \u05D1\u05DE\u05E7\u05E8\u05D4 \u05E9\u05DC \u05EA\u05E7\u05DC\u05D4, \u05D0\u05E0\u05D7\u05E0\u05D5 \u05E2\u05D5\u05E9\u05D9\u05DD \u05DE\u05D0\u05E6\u05D9\u05DD \u05E8\u05D1\u05D9\u05DD \u05DB\u05D3\u05D9 \u05DC\u05E4\u05EA\u05D5\u05E8 \u05D0\u05D5\u05EA\u05DD \u05DB\u05DE\u05D4 \u05E9\u05D9\u05D5\u05EA\u05E8 \u05DE\u05D4\u05E8. \u05D0\u05E0\u05D7\u05E0\u05D5 \u05DE\u05DE\u05DC\u05D9\u05E6\u05D9\u05DD \u05DC\u05E2\u05E7\u05D5\u05D1 \u05D0\u05D7\u05E8\u05D9 \u05E2\u05D3\u05DB\u05D5\u05E0\u05D9\u05DD \u05D1\u05E8\u05E9\u05EA \u05D4\u05D7\u05D1\u05E8\u05EA\u05D9\u05EA \u05D4\u05D0\u05D4\u05D5\u05D1\u05D4 \u05D0\u05DC\u05D9\u05DB\u05DD."
+   }
+}

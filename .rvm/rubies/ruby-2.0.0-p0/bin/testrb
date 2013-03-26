@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+ENV['GEM_HOME']=ENV['GEM_HOME'] || '/Users/meleeman/.rvm/gems/ruby-2.0.0-p0'
+ENV['GEM_PATH']=ENV['GEM_PATH'] || '/Users/meleeman/.rvm/gems/ruby-2.0.0-p0:/Users/meleeman/.rvm/gems/ruby-2.0.0-p0@global'
+ENV['PATH']='/Users/meleeman/.rvm/gems/ruby-2.0.0-p0/bin:/Users/meleeman/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/bin:' + ENV['PATH']
+
+require 'test/unit'
+exit Test::Unit::AutoRunner.run(true)

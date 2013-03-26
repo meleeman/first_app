@@ -1,0 +1,238 @@
+{
+   "archive": {
+      "description": "Archive button.",
+      "message": "Archiver"
+   },
+   "changes": {
+      "description": "Changes saved. Check your Gmail.",
+      "message": "Modifications enregistr\u00E9es. V\u00E9rifier votre bo\u00EEte de r\u00E9ception"
+   },
+   "delete": {
+      "description": "Delete button.",
+      "message": "Supprimer"
+   },
+   "extDescription": {
+      "description": "Extension description.",
+      "message": "Pas de publicit\u00E9s et diff\u00E9rentes options pour rendre l'interface de Gmail\u2122 plus propre et intuitive. Test\u00E9 et approuv\u00E9 par TechCrunch, Lifehacker, PC Magazine et plein d'autres."
+   },
+   "extName": {
+      "description": "Extension name.",
+      "message": "Gmelius - Ad Blocker and Better UI for Gmail\u2122"
+   },
+   "feedbackbtn": {
+      "description": "Leave Feedback.",
+      "message": "Laisser votre Feedback"
+   },
+   "footbugs": {
+      "description": "Footnote Bugs.",
+      "message": "N'h\u00E9sitez pas \u00E0 partager vos id\u00E9es, bugs. Merci de toujours nous donner votre syst\u00E8me d'exploitation, la version de Chrome et la version de Gmelius quand vous faites r\u00E9f\u00E9rence \u00E0 un bug, ex: Mac - Chrome 18 - Gmelius 5.1."
+   },
+   "footsettings": {
+      "description": "Footnote Settings.",
+      "message": "Vous pouvez acc\u00E9der et modifier vos pr\u00E9f\u00E9rences quand vous le souhaitez soit, en cliquant sur l'ic\u00F4ne de l'extension \u00E0 droite de la barre d'adresse soit en saisissant \"gmelius options\" dans la barre d'adresse. C'est aussi simple !"
+   },
+   "footupdate": {
+      "description": "Footnote Updates.",
+      "message": "Assurez-vous que vous utilisez toujours la derni\u00E8re version de Gmelius. Pour mettre \u00E0 jour votre extension, s\u00E9lectionner \"developer mode\" et cliquer sur \"update extensions now\". Les mises \u00E0 jour sont annonc\u00E9es sur "
+   },
+   "h4header": {
+      "description": "Gmail header.",
+      "message": "Ent\u00EAte de Gmail&trade;"
+   },
+   "h4icons": {
+      "description": "Icons header.",
+      "message": "Ajouter les ic\u00F4nes pi\u00E8ce jointe"
+   },
+   "h4inbox": {
+      "description": "Gmail inbox header.",
+      "message": "Bo\u00EEte de r\u00E9ception Gmail&trade;"
+   },
+   "h4space": {
+      "description": "Space Gmail.",
+      "message": "Lib\u00E9rez de l'espace dans votre interface Gmail&trade;"
+   },
+   "hfeedback": {
+      "description": "Feedback and Suggestions header.",
+      "message": "R\u00E9actions et Suggestions"
+   },
+   "hlove": {
+      "description": "Support Gmelius header.",
+      "message": "Supportez Gmelius"
+   },
+   "hoptions": {
+      "description": "Options header.",
+      "message": "Options"
+   },
+   "hupdates": {
+      "description": "Updates header.",
+      "message": "Mises \u00E0 jour"
+   },
+   "iconstxt": {
+      "description": "Icons Inbox.",
+      "message": "Dans votre bo\u00EEte de r\u00E9ception, les pi\u00E8ces jointes sont indiqu\u00E9es par un trombone. Que penseriez vous d'une ic\u00F4ne d\u00E9pendant du type de pi\u00E8ce jointe ? Plus de 40 sortes de type de fichiers pris en charge."
+   },
+   "labels": {
+      "description": "Labels button.",
+      "message": "Libell\u00E9s"
+   },
+   "lads": {
+      "description": "Ads.",
+      "message": "Publicit\u00E9s"
+   },
+   "lakc": {
+      "description": "Chat & Calendar widgets.",
+      "message": "Widgets chat et agenda"
+   },
+   "latticons": {
+      "description": "Google icons.",
+      "message": "ic\u00F4nes Google"
+   },
+   "lattleft": {
+      "description": "Move attachment icons from the right to the left or your inbox.",
+      "message": "D\u00E9placer les ic\u00F4nes de pi\u00E8ces jointes de la droite vers la gauche de votre bo\u00EEte de r\u00E9ception"
+   },
+   "lavablesc": {
+      "description": "Chat availability.",
+      "message": "Disponibilit\u00E9 des contacts Chat"
+   },
+   "lbacktop": {
+      "description": "Auto-Scroll.",
+      "message": "Revenir en haut de votre bo\u00EEte de r\u00E9ception en cliquant sur la barre noire sup\u00E9rieure, comme dans Google+"
+   },
+   "lbtnnav": {
+      "description": "Add text to navigation icons such as Archive, Spam, Delete.",
+      "message": "Ajouter du texte aux ic\u00F4nes de navigation telles que \"Archiver\", \"Spam\", \"Supprimer\""
+   },
+   "lbwicons": {
+      "description": "Make icons black and white.",
+      "message": "ic\u00F4nes en noir et blanc"
+   },
+   "lchat": {
+      "description": "Chat.",
+      "message": "Chat"
+   },
+   "lcoloriz": {
+      "description": "Colourize navigation icons such as Archive, Spam, Delete, etc.",
+      "message": "Colorer les ic\u00F4nes de navigation telles que \"Archiver\", \"Spam\", \"Supprimer\", etc."
+   },
+   "lconsider": {
+      "description": "Consider including.",
+      "message": "Option de suggestion \"Ajouter\" lors de la composition d'un nouvel email"
+   },
+   "ldefrow": {
+      "description": "Enable subtle row highlight when mouse over your emails.",
+      "message": "Activer la mise en surbrillance des lignes lors du d\u00E9placement de la souris sur vos emails"
+   },
+   "lemptinbox": {
+      "description": "No new mail! message.",
+      "message": "Le message \"Aucun nouveau message\""
+   },
+   "lenlarge": {
+      "description": "People Widget.",
+      "message": "People Widget (Contact \u00E0 droite des emails)"
+   },
+   "lfonts": {
+      "description": "Homogenize the appearance of your incoming emails.",
+      "message": "Homog\u00E9n\u00E9iser l'apparence de vos messages entrants, c'est-\u00E0-dire le type, la taille et la couleur de la police par d\u00E9faut"
+   },
+   "lfooter": {
+      "description": "Footer.",
+      "message": "Pied de page"
+   },
+   "lheader": {
+      "description": "Header.",
+      "message": "Rendre l'ent\u00EAte (barre de recherche et logo) auto-extensible"
+   },
+   "linbox": {
+      "description": "Go back to Inbox by clicking on the Google logo.",
+      "message": "Retourner \u00E0 votre bo\u00EEte de r\u00E9ception en cliquant sur le logo Google"
+   },
+   "lkey": {
+      "description": "Key to press to make header visible/hidden.",
+      "message": "Presser les touches pour afficher/masquer l'ent\u00EAte:"
+   },
+   "llabelsr": {
+      "description": "Move labels of your messages from the left to the right of your inbox.",
+      "message": "D\u00E9placer les libell\u00E9s de vos message de la gauche vers la droite de votre bo\u00EEte de r\u00E9ception"
+   },
+   "lmouse": {
+      "description": "scrollbars and scroll Gmail with mouse wheel/touchpad.",
+      "message": "Barres de d\u00E9filement et d\u00E9filement remplac\u00E9 par souris ou touchpad"
+   },
+   "lmsicons": {
+      "description": "Microsoft icons.",
+      "message": "ic\u00F4nes Microsoft"
+   },
+   "lovetxt": {
+      "description": "Donation text.",
+      "message": "Merci de participer au d\u00E9veloppement continu de Gmelius en laissant une petite contribution."
+   },
+   "lplayy": {
+      "description": "Remove Google Play from the top nav bar.",
+      "message": "Retirer Google Play de la barre de navigation sup\u00E9rieure"
+   },
+   "lreader": {
+      "description": "Replace Google News by Google Reader in the top nav bar.",
+      "message": "Remplacer Google News par Google Reader dans la barre de navigation sup\u00E9rieure"
+   },
+   "lrow": {
+      "description": "Enable subtle row highlight with customized color.",
+      "message": "Activer la surbrillance des lignes avec une couleur personnalis\u00E9e"
+   },
+   "lsearchsc": {
+      "description": "Chat search box.",
+      "message": "Zone de recherche du Chat"
+   },
+   "lstatusc": {
+      "description": "Chat statuses.",
+      "message": "Statuts de Chat"
+   },
+   "lvoice": {
+      "description": "Add Google Voice to top navigation bar.",
+      "message": "Ajouter Google Voice \u00E0 la barre de navigation sup\u00E9rieure"
+   },
+   "moreinfo": {
+      "description": "More information link.",
+      "message": "Plus d'informations (avec illustrations)"
+   },
+   "move": {
+      "description": "Move button.",
+      "message": "D\u00E9placer"
+   },
+   "savebtn": {
+      "description": "Save button.",
+      "message": "Sauvegarder mes pr\u00E9f\u00E9rences"
+   },
+   "spacetxt": {
+      "description": "Regain some space.",
+      "message": "Gmelius vous donne la possibilit\u00E9 de lib\u00E9rer de l'espace et de nettoyer votre bo\u00EEte de r\u00E9ception en supprimant ou d\u00E9sactivant:"
+   },
+   "spam": {
+      "description": "Spam button.",
+      "message": "Spam"
+   },
+   "tip": {
+      "description": "Tip message.",
+      "message": "Cocher la case pour activer une fonctionnalit\u00E9. N'oubliez pas de sauvegarder vos pr\u00E9f\u00E9rences."
+   },
+   "translate": {
+      "description": "Translate this page.",
+      "message": ""
+   },
+   "translated": {
+      "description": "Translated by John Smith.",
+      "message": ""
+   },
+   "unchecklabel": {
+      "description": "Uncheck all.",
+      "message": "D\u00E9s\u00E9lectionner tout"
+   },
+   "updatebtn": {
+      "description": "Update Gmelius.",
+      "message": "Mettre \u00E0 jour Gmelius"
+   },
+   "welcome": {
+      "description": "Welcome message.",
+      "message": "Merci d'utiliser \u003Ca href=\"http://gmelius.com\" target=\"_blank\"\u003EGmelius\u003C/a\u003E ! Nous proposons un logiciel de qualit\u00E9 avec de nouvelles fonctionnalit\u00E9s et des am\u00E9liorations constantes. Nous vous recommandons donc de suivre Gmelius sur les diff\u00E9rents r\u00E9seaux sociaux afin d'\u00EAtre tenu inform\u00E9 des derni\u00E8res nouveaut\u00E9s."
+   }
+}

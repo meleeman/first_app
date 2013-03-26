@@ -1,0 +1,153 @@
+[2013-03-26 12:59:08] requirements_brew_libs_install
+==> Downloading http://ftpmirror.gnu.org/autoconf/autoconf-2.69.tar.gz
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/autoconf/2.69
+==> make install
+🍺  /Users/meleeman/.homebrew/Cellar/autoconf/2.69: 69 files, 2.0M, built in 22 seconds
+==> Downloading http://ftpmirror.gnu.org/automake/automake-1.13.1.tar.gz
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/automake/1.13.1
+==> make install
+🍺  /Users/meleeman/.homebrew/Cellar/automake/1.13.1: 126 files, 2.3M, built in 24 seconds
+==> Downloading http://ftpmirror.gnu.org/libtool/libtool-2.4.2.tar.gz
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/libtool/2.4.2 --program-prefix=g --enable-ltdl-install
+==> make install
+==> Caveats
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+==> Summary
+🍺  /Users/meleeman/.homebrew/Cellar/libtool/2.4.2: 66 files, 2.2M, built in 42 seconds
+==> Downloading http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/pkg-config/0.28 --disable-host-tool --with-internal-glib --with-pc-path=/Users/meleeman/.rvm/lib/pkgconfig:/Users/meleeman/.rvm/share/pkgconfig:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
+==> make
+==> make check
+==> make install
+🍺  /Users/meleeman/.homebrew/Cellar/pkg-config/0.28: 10 files, 636K, built in 93 seconds
+==> Downloading http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/libyaml/0.1.4
+==> make install
+🍺  /Users/meleeman/.homebrew/Cellar/libyaml/0.1.4: 7 files, 336K, built in 19 seconds
+==> Downloading http://ftpmirror.gnu.org/readline/readline-6.2.tar.gz
+==> Patching
+patching file callback.c
+patching file input.c
+patching file patchlevel
+patching file support/shobj-conf
+patching file vi_mode.c
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/readline/6.2.4 --mandir=/Users/meleeman/.homebrew/Cellar/readline/6.2.4/share/man --infodir=/Users/meleeman/.homebrew/Cellar/readline/6.2.4/share/info --enable-multibyte
+==> make install
+==> Caveats
+This formula is keg-only: so it was not symlinked into /Users/meleeman/.rvm.
+
+OS X provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/Users/meleeman/.rvm/opt/readline/lib
+    CPPFLAGS: -I/Users/meleeman/.rvm/opt/readline/include
+
+==> Summary
+🍺  /Users/meleeman/.homebrew/Cellar/readline/6.2.4: 31 files, 1.6M, built in 44 seconds
+==> Downloading ftp://xmlsoft.org/libxml2/libxml2-2.9.0.tar.gz
+==> Downloading patches
+==> Patching
+patching file threads.c
+patching file xpath.c
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/libxml2/2.9.0 --without-python
+==> make
+==> make install
+==> Caveats
+This formula is keg-only: so it was not symlinked into /Users/meleeman/.rvm.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/Users/meleeman/.rvm/opt/libxml2/lib
+    CPPFLAGS: -I/Users/meleeman/.rvm/opt/libxml2/include
+
+==> Summary
+🍺  /Users/meleeman/.homebrew/Cellar/libxml2/2.9.0: 273 files, 11M, built in 2.2 minutes
+==> Downloading ftp://xmlsoft.org/libxml2/libxslt-1.1.28.tar.gz
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/libxslt/1.1.28 --with-libxml-prefix=/Users/meleeman/.homebrew/Cellar/libxml2/2.9.0
+==> make
+==> make install
+==> Caveats
+To allow the nokogiri gem to link against this libxslt run:
+  gem install nokogiri -- --with-xslt-dir=/Users/meleeman/.rvm/opt/libxslt
+
+This formula is keg-only: so it was not symlinked into /Users/meleeman/.rvm.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/Users/meleeman/.rvm/opt/libxslt/lib
+    CPPFLAGS: -I/Users/meleeman/.rvm/opt/libxslt/include
+
+==> Summary
+🍺  /Users/meleeman/.homebrew/Cellar/libxslt/1.1.28: 145 files, 3.3M, built in 75 seconds
+==> Installing libksba dependency: libgpg-error
+==> Downloading ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.11.tar.bz2
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/libgpg-error/1.11
+==> make install
+🍺  /Users/meleeman/.homebrew/Cellar/libgpg-error/1.11: 15 files, 164K, built in 20 seconds
+==> Installing libksba
+==> Downloading ftp://ftp.gnupg.org/gcrypt/libksba/libksba-1.3.0.tar.bz2
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/libksba/1.3.0
+==> make install
+🍺  /Users/meleeman/.homebrew/Cellar/libksba/1.3.0: 11 files, 288K, built in 25 seconds
+==> Downloading http://openssl.org/source/openssl-1.0.1e.tar.gz
+==> perl ./Configure --prefix=/Users/meleeman/.homebrew/Cellar/openssl/1.0.1e --openssldir=/Users/meleeman/.rvm/etc/openssl zlib-dynamic shared darwin64-x86_64-cc
+==> make
+==> make test
+==> make install MANDIR=/Users/meleeman/.homebrew/Cellar/openssl/1.0.1e/share/man MANSUFFIX=ssl
+==> Caveats
+To install updated CA certs from Mozilla.org:
+
+    brew install curl-ca-bundle
+
+This formula is keg-only: so it was not symlinked into /Users/meleeman/.rvm.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+The OpenSSL provided by OS X is too old for some software.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/Users/meleeman/.rvm/opt/openssl/lib
+    CPPFLAGS: -I/Users/meleeman/.rvm/opt/openssl/include
+
+==> Summary
+🍺  /Users/meleeman/.homebrew/Cellar/openssl/1.0.1e: 429 files, 15M, built in 5.0 minutes
+==> Downloading http://sqlite.org/2013/sqlite-autoconf-3071600.tar.gz
+==> ./configure --prefix=/Users/meleeman/.homebrew/Cellar/sqlite/3.7.16 --enable-dynamic-extensions
+==> make install
+==> Caveats
+This formula is keg-only: so it was not symlinked into /Users/meleeman/.rvm.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+OS X already provides (an older) sqlite3.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/Users/meleeman/.rvm/opt/sqlite/lib
+    CPPFLAGS: -I/Users/meleeman/.rvm/opt/sqlite/include
+
+==> Summary
+🍺  /Users/meleeman/.homebrew/Cellar/sqlite/3.7.16: 9 files, 1.9M, built in 73 seconds

@@ -1,0 +1,10 @@
+03/25/13 18:21:24 imagent[295]: Created trigger set_message_has_attachments.
+03/25/13 18:21:24 imagent[295]: Created trigger clear_message_has_attachments.
+03/25/13 18:21:24 imagent[295]: Created trigger update_message_roomname_cache_insert.
+03/25/13 18:21:24 imagent[295]: Created trigger update_message_roomname_cache_delete.
+03/25/13 18:21:24 imagent[295]: Created trigger delete_attachment_files.
+03/25/13 18:21:24 imagent[295]: Created index idx_chat_identifier.
+03/25/13 18:21:24 imagent[295]: Created index chat_idx_room_name.
+03/25/13 18:21:24 imagent[295]: Created index message_idx_was_downgraded.
+03/25/13 18:21:24 imagent[295]: Created index message_idx_is_read.
+03/25/13 18:21:24 imagent[295]: Created index chat_message_join_idx_message_id.

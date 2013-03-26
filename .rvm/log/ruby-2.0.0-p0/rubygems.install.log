@@ -1,0 +1,127 @@
+[2013-03-26 13:19:39] /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/bin/ruby
+Exception `LoadError' at /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/rubygems.rb:1073 - cannot load such file -- rubygems/defaults/operating_system
+Exception `LoadError' at /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/rubygems.rb:1082 - cannot load such file -- rubygems/defaults/ruby
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/bin
+install -c -m 0644 gauntlet_rubygems.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/gauntlet_rubygems.rb
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems
+install -c -m 0644 rubygems/available_set.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/available_set.rb
+install -c -m 0644 rubygems/command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/command.rb
+install -c -m 0644 rubygems/command_manager.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/command_manager.rb
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands
+install -c -m 0644 rubygems/commands/build_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/build_command.rb
+install -c -m 0644 rubygems/commands/cert_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/cert_command.rb
+install -c -m 0644 rubygems/commands/check_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/check_command.rb
+install -c -m 0644 rubygems/commands/cleanup_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/cleanup_command.rb
+install -c -m 0644 rubygems/commands/contents_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/contents_command.rb
+install -c -m 0644 rubygems/commands/dependency_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/dependency_command.rb
+install -c -m 0644 rubygems/commands/environment_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/environment_command.rb
+install -c -m 0644 rubygems/commands/fetch_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/fetch_command.rb
+install -c -m 0644 rubygems/commands/generate_index_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/generate_index_command.rb
+install -c -m 0644 rubygems/commands/help_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/help_command.rb
+install -c -m 0644 rubygems/commands/install_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/install_command.rb
+install -c -m 0644 rubygems/commands/list_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/list_command.rb
+install -c -m 0644 rubygems/commands/lock_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/lock_command.rb
+install -c -m 0644 rubygems/commands/mirror_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/mirror_command.rb
+install -c -m 0644 rubygems/commands/outdated_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/outdated_command.rb
+install -c -m 0644 rubygems/commands/owner_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/owner_command.rb
+install -c -m 0644 rubygems/commands/pristine_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/pristine_command.rb
+install -c -m 0644 rubygems/commands/push_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/push_command.rb
+install -c -m 0644 rubygems/commands/query_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/query_command.rb
+install -c -m 0644 rubygems/commands/rdoc_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/rdoc_command.rb
+install -c -m 0644 rubygems/commands/search_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/search_command.rb
+install -c -m 0644 rubygems/commands/server_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/server_command.rb
+install -c -m 0644 rubygems/commands/setup_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/setup_command.rb
+install -c -m 0644 rubygems/commands/sources_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/sources_command.rb
+install -c -m 0644 rubygems/commands/specification_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/specification_command.rb
+install -c -m 0644 rubygems/commands/stale_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/stale_command.rb
+install -c -m 0644 rubygems/commands/uninstall_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/uninstall_command.rb
+install -c -m 0644 rubygems/commands/unpack_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/unpack_command.rb
+install -c -m 0644 rubygems/commands/update_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/update_command.rb
+install -c -m 0644 rubygems/commands/which_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/which_command.rb
+install -c -m 0644 rubygems/commands/yank_command.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/commands/yank_command.rb
+install -c -m 0644 rubygems/compatibility.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/compatibility.rb
+install -c -m 0644 rubygems/config_file.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/config_file.rb
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/core_ext
+install -c -m 0644 rubygems/core_ext/kernel_gem.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_gem.rb
+install -c -m 0644 rubygems/core_ext/kernel_require.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb
+install -c -m 0644 rubygems/defaults.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/defaults.rb
+install -c -m 0644 rubygems/dependency.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/dependency.rb
+install -c -m 0644 rubygems/dependency_installer.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/dependency_installer.rb
+install -c -m 0644 rubygems/dependency_list.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/dependency_list.rb
+install -c -m 0644 rubygems/dependency_resolver.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/dependency_resolver.rb
+install -c -m 0644 rubygems/deprecate.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/deprecate.rb
+install -c -m 0644 rubygems/doctor.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/doctor.rb
+install -c -m 0644 rubygems/errors.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/errors.rb
+install -c -m 0644 rubygems/exceptions.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/exceptions.rb
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ext
+install -c -m 0644 rubygems/ext/builder.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb
+install -c -m 0644 rubygems/ext/cmake_builder.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ext/cmake_builder.rb
+install -c -m 0644 rubygems/ext/configure_builder.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ext/configure_builder.rb
+install -c -m 0644 rubygems/ext/ext_conf_builder.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb
+install -c -m 0644 rubygems/ext/rake_builder.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ext/rake_builder.rb
+install -c -m 0644 rubygems/ext.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ext.rb
+install -c -m 0644 rubygems/gem_runner.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/gem_runner.rb
+install -c -m 0644 rubygems/gemcutter_utilities.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/gemcutter_utilities.rb
+install -c -m 0644 rubygems/indexer.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/indexer.rb
+install -c -m 0644 rubygems/install_message.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/install_message.rb
+install -c -m 0644 rubygems/install_update_options.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/install_update_options.rb
+install -c -m 0644 rubygems/installer.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb
+install -c -m 0644 rubygems/installer_test_case.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/installer_test_case.rb
+install -c -m 0644 rubygems/local_remote_options.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/local_remote_options.rb
+install -c -m 0644 rubygems/mock_gem_ui.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/mock_gem_ui.rb
+install -c -m 0644 rubygems/name_tuple.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/name_tuple.rb
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package
+install -c -m 0644 rubygems/package/digest_io.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package/digest_io.rb
+install -c -m 0644 rubygems/package/old.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package/old.rb
+install -c -m 0644 rubygems/package/tar_header.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package/tar_header.rb
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package/tar_reader
+install -c -m 0644 rubygems/package/tar_reader/entry.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package/tar_reader/entry.rb
+install -c -m 0644 rubygems/package/tar_reader.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package/tar_reader.rb
+install -c -m 0644 rubygems/package/tar_test_case.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package/tar_test_case.rb
+install -c -m 0644 rubygems/package/tar_writer.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package/tar_writer.rb
+install -c -m 0644 rubygems/package.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package.rb
+install -c -m 0644 rubygems/package_task.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/package_task.rb
+install -c -m 0644 rubygems/path_support.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/path_support.rb
+install -c -m 0644 rubygems/platform.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/platform.rb
+install -c -m 0644 rubygems/psych_additions.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/psych_additions.rb
+install -c -m 0644 rubygems/psych_tree.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/psych_tree.rb
+install -c -m 0644 rubygems/rdoc.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/rdoc.rb
+install -c -m 0644 rubygems/remote_fetcher.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/remote_fetcher.rb
+install -c -m 0644 rubygems/request_set.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/request_set.rb
+install -c -m 0644 rubygems/requirement.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/requirement.rb
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/security
+install -c -m 0644 rubygems/security/policies.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/security/policies.rb
+install -c -m 0644 rubygems/security/policy.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/security/policy.rb
+install -c -m 0644 rubygems/security/signer.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/security/signer.rb
+install -c -m 0644 rubygems/security/trust_dir.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/security/trust_dir.rb
+install -c -m 0644 rubygems/security.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/security.rb
+install -c -m 0644 rubygems/server.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/server.rb
+install -c -m 0644 rubygems/source.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/source.rb
+install -c -m 0644 rubygems/source_list.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/source_list.rb
+install -c -m 0644 rubygems/source_local.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/source_local.rb
+install -c -m 0644 rubygems/source_specific_file.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/source_specific_file.rb
+install -c -m 0644 rubygems/spec_fetcher.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/spec_fetcher.rb
+install -c -m 0644 rubygems/specification.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/specification.rb
+install -c -m 0644 rubygems/syck_hack.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/syck_hack.rb
+install -c -m 0644 rubygems/test_case.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/test_case.rb
+install -c -m 0644 rubygems/test_utilities.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/test_utilities.rb
+install -c -m 0644 rubygems/text.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/text.rb
+install -c -m 0644 rubygems/uninstaller.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/uninstaller.rb
+install -c -m 0644 rubygems/user_interaction.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/user_interaction.rb
+install -c -m 0644 rubygems/validator.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/validator.rb
+install -c -m 0644 rubygems/version.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/version.rb
+install -c -m 0644 rubygems/version_option.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/version_option.rb
+install -c -m 0644 rubygems.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems.rb
+install -c -m 0644 ubygems.rb /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/ubygems.rb
+mkdir -p /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs
+install -c -m 0644 rubygems/ssl_certs/AddTrustExternalCARoot.pem /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs/AddTrustExternalCARoot.pem
+install -c -m 0644 rubygems/ssl_certs/Entrust_net-Secure-Server-Certification-Authority.pem /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs/Entrust_net-Secure-Server-Certification-Authority.pem
+install -c -m 0644 rubygems/ssl_certs/GeoTrust_Global_CA.pem /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs/GeoTrust_Global_CA.pem
+install -c -m 0644 rubygems/ssl_certs/VerisignClass3PublicPrimaryCertificationAuthority-G2.pem /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/rubygems/ssl_certs/VerisignClass3PublicPrimaryCertificationAuthority-G2.pem
+install -c -m 0755 /var/folders/3q/jckss4352l54y5_z1j8y9kw80000gn/T/gem.81105 /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/bin/gem
+rm /var/folders/3q/jckss4352l54y5_z1j8y9kw80000gn/T/gem.81105
+ERROR:  While executing gem ... (NoMethodError)
+    undefined method `fu_stream_blksize' for #<Gem::Commands::SetupCommand:0x007fe3ec1f5798>
+Installing RubyGems
+Installing gem executable

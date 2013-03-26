@@ -1,0 +1,131 @@
+[2013-03-26 13:19:08] make
+	CC = clang
+	LD = ld
+	LDSHARED = clang -dynamiclib
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Werror=pointer-arith -Werror=write-strings -Werror=declaration-after-statement -Werror=shorten-64-to-32 -Werror=implicit-function-declaration   -fno-common -pipe 
+	XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fstack-protector -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+	CPPFLAGS = -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/Users/meleeman/.rvm/opt/libyaml/include -I/Users/meleeman/.rvm/opt/readline/include -I/Users/meleeman/.rvm/opt/libxml2/include -I/Users/meleeman/.rvm/opt/libxslt/include -I/Users/meleeman/.rvm/opt/libksba/include -I/Users/meleeman/.rvm/opt/openssl/include -I/Users/meleeman/.rvm/opt/sqlite/include   -I. -I.ext/include/x86_64-darwin12.3.0 -I./include -I.
+	DLDFLAGS = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -L/Users/meleeman/.rvm/opt/libyaml/lib -L/Users/meleeman/.rvm/opt/readline/lib -L/Users/meleeman/.rvm/opt/libxml2/lib -L/Users/meleeman/.rvm/opt/libxslt/lib -L/Users/meleeman/.rvm/opt/libksba/lib -L/Users/meleeman/.rvm/opt/openssl/lib -L/Users/meleeman/.rvm/opt/sqlite/lib  -install_name /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/libruby.2.0.0.dylib -current_version 2.0.0 -compatibility_version 2.0.0  -fstack-protector -Wl,-u,_objc_msgSend  -fstack-protector -Wl,-u,_objc_msgSend  
+	SOLIBS = 
+generating encdb.h
+encdb.h unchanged
+making enc
+make[1]: Nothing to be done for `enc'.
+making srcs under enc
+make[1]: Nothing to be done for `srcs'.
+generating transdb.h
+transdb.h unchanged
+making trans
+make[1]: Nothing to be done for `./enc/trans'.
+making encs
+generating makefile exts.mk
+Failed to configure -test-/win32/dln. It will not be installed.
+Failed to configure -test-/win32/fd_setsize. It will not be installed.
+Failed to configure dl/win32. It will not be installed.
+Failed to configure fiddle/win32. It will not be installed.
+Failed to configure gdbm. It will not be installed.
+configuring socket
+Failed to configure tk/tkutil. It will not be installed.
+Failed to configure win32ole. It will not be installed.
+installing default resize libraries
+installing default bug libraries
+installing default bug libraries
+installing default bug libraries
+installing default debug libraries
+installing default exception libraries
+installing default rb_fatal libraries
+installing default funcall libraries
+installing default break libraries
+installing default dot.dot libraries
+installing default compat libraries
+installing default usr libraries
+installing default method libraries
+installing default num2int libraries
+installing default old_thread_select libraries
+installing default path_to_class libraries
+installing default printf libraries
+installing default numhash libraries
+installing default update libraries
+installing default string libraries
+installing default symbol libraries
+installing default typeddata libraries
+installing default wait_for_single_fd libraries
+make[2]: Nothing to be done for `all'.
+make[2]: Nothing to be done for `all'.
+installing default bigdecimal libraries
+installing default continuation libraries
+installing default coverage libraries
+installing default curses libraries
+installing default date_core libraries
+installing default dbm libraries
+installing digest libraries
+installing default digest libraries
+installing default bubblebabble libraries
+installing default md5 libraries
+installing default rmd160 libraries
+installing default sha1 libraries
+installing default sha2 libraries
+installing dl libraries
+installing default dl libraries
+installing default callback libraries
+make[2]: Nothing to be done for `all'.
+installing default etc libraries
+installing default fcntl libraries
+installing default fiber libraries
+installing default fiddle libraries
+make[2]: Nothing to be done for `all'.
+make[2]: Nothing to be done for `all'.
+installing default console libraries
+installing default nonblock libraries
+installing default wait libraries
+installing default libraries
+installing default generator libraries
+installing default parser libraries
+installing default complex libraries
+installing default rational libraries
+installing default nkf libraries
+installing default objspace libraries
+installing default openssl libraries
+installing default pathname libraries
+installing default psych libraries
+installing default pty libraries
+installing default cparse libraries
+installing default readline libraries
+installing default ripper libraries
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+installing default sdbm libraries
+linking shared-object socket.bundle
+installing default socket libraries
+installing default stringio libraries
+installing default strscan libraries
+installing default syslog libraries
+make[2]: Nothing to be done for `all'.
+make[2]: Nothing to be done for `all'.
+installing default zlib libraries
+make[2]: `ruby' is up to date.
+./miniruby -I./lib -I. -I.ext/common  ./tool/rbinstall.rb --make="make" --dest-dir="" --extout=".ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="doc"
+installing binary commands:   /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/bin
+installing base libraries:    /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib
+installing arch files:        /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/x86_64-darwin12.3.0
+installing pkgconfig data:    /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/pkgconfig
+installing command scripts:   /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/bin
+installing library scripts:   /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0
+installing common headers:    /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/include/ruby-2.0.0
+installing manpages:          /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/share/man/man1
+installing extension objects: /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/x86_64-darwin12.3.0
+installing extension objects: /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0/x86_64-darwin12.3.0
+installing extension objects: /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin12.3.0
+installing extension headers: /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/include/ruby-2.0.0/x86_64-darwin12.3.0
+installing extension scripts: /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0
+installing extension scripts: /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/site_ruby/2.0.0
+installing extension scripts: /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/vendor_ruby/2.0.0
+installing extension headers: /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/include/ruby-2.0.0/ruby
+installing default gems:      /Users/meleeman/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/gems/2.0.0 (build_info, cache, doc, gems, specifications)
+                              bigdecimal 1.2.0
+                              io-console 0.4.2
+                              json 1.7.7
+                              minitest 4.3.2
+                              psych 2.0.0
+                              rake 0.9.6
+                              rdoc 4.0.0
+                              test-unit 2.0.0.0

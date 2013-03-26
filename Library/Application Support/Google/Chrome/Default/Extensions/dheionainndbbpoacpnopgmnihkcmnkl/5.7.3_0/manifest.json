@@ -1,0 +1,36 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon/iconpop.png",
+      "default_popup": "popup.html",
+      "default_title": "Gmelius\u2122"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery.js", "js/jwerty.js", "js/gmelius.js" ],
+      "matches": [ "*://mail.google.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "http://gmelius.com",
+   "icons": {
+      "128": "icon/icon128.png",
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/l6YXznOW9Q90Bg1FMSxkY8C49RPSoIxjphq0MVD1ZJNywkqoIAuMn43Uho2Hp+7IQISwoNpav9JTyHg9PobkUgaTPy78TgPvxJPEyHlMCvZBbFUO21ibRO4ARYE1++3caQkslUuW1KvTQnyTL768BVm+imSRtPXl+C6CJrV/vwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "20",
+   "name": "__MSG_extName__",
+   "omnibox": {
+      "keyword": "gmelius"
+   },
+   "options_page": "options.html",
+   "permissions": [ "tabs", "storage", "notifications", "*://mail.google.com/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "5.7.3",
+   "web_accessible_resources": [ "css/colourized.png", "css/gicons.png", "js/jquery.js", "js/gmelius.js", "/icon/icon48.png" ]
+}

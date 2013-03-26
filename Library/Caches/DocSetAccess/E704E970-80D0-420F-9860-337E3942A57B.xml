@@ -1,0 +1,140 @@
+<?xml version="1.0" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>http://developer.apple.com/rss/com.apple.adc.documentation.AppleXcode4_0.atom/20120918184210</id>
+    <title type="text">Apple Xcode 4</title>
+    <rights>Copyright © 2012 Apple Inc. All rights reserved.</rights>
+    <link rel="self" href="http://developer.apple.com/rss/com.apple.adc.documentation.AppleXcode4_0.atom"></link>
+    <docset:publisherName>Apple</docset:publisherName>
+    <docset:publisherID>com.apple.adc.documentation</docset:publisherID>
+    <updated>2013-01-28T09:39:24-08:00</updated>
+<entry>
+        <id>tag:developer.apple.com,2011-05-05:com.apple.adc.documentation.AppleXcode.DeveloperTools/501.4.0</id>
+        <title type="text">Xcode 4.0 Developer Library</title>
+        <updated>2011-05-05T13:43:43-07:00</updated>
+        <content type="text">Xcode 4.0 Developer Library (v501.4.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20110505/com.apple.ADC_Reference_Library.DeveloperTools.4_0.xar" length="213948745"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>501.4.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.0.0</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.0.999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2011-07-20:com.apple.adc.documentation.AppleXcode.DeveloperTools/502.12.0</id>
+        <title type="text">Xcode 4.1 Developer Library</title>
+        <updated>2011-07-20T17:16:35-07:00</updated>
+        <content type="text">Xcode 4.1 Developer Library (v502.12.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20110720/com.apple.ADC_Reference_Library.DeveloperTools.4_1.xar" length="215200436"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>502.12.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.1.0</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.1.999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2012-02-15:com.apple.adc.documentation.AppleXcode.DeveloperTools/505.32.0</id>
+        <title type="text">Xcode 4.3 Developer Library</title>
+        <updated>2012-02-15T21:43:31-08:00</updated>
+        <content type="text">Xcode 4.3 Developer Library (v505.32.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20120216/com.apple.ADC_Reference_Library.DeveloperTools.4_3.xar" length="246994657"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>505.32.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.3.0</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.3.999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2012-03-07:com.apple.adc.documentation.AppleXcode.DeveloperTools/507.2.0</id>
+        <title type="text">Xcode 4.3.1 Developer Library</title>
+        <updated>2012-03-07T15:37:10-08:00</updated>
+        <content type="text">Xcode 4.3.1 Developer Library (v507.2.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20120307/com.apple.ADC_Reference_Library.DeveloperTools.4_3_1.xar" length="249555228"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>507.2.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.3.1</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.3.999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2012-04-09:com.apple.adc.documentation.AppleXcode.DeveloperTools/504.22.0</id>
+        <title type="text">Xcode 4.2 Developer Library</title>
+        <updated>2012-04-09T16:52:18-07:00</updated>
+        <content type="text">Xcode 4.2 Developer Library (v504.22.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20120409/com.apple.ADC_Reference_Library.DeveloperTools.4_2.xar" length="236885032"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>504.22.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.2.0</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.2.999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2012-05-10:com.apple.adc.documentation.AppleXcode.DeveloperTools/508.16.0</id>
+        <title type="text">Xcode 4.3.2 Developer Library</title>
+        <updated>2012-05-10T15:18:53-07:00</updated>
+        <content type="text">Xcode 4.3.2 Developer Library (v508.16.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="https://devimages.apple.com.edgekey.net/docsets/20120511/com.apple.ADC_Reference_Library.DeveloperTools.4_3_2.xar" length="296986602"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>508.16.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.3.2</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.3.999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2012-06-11:com.apple.adc.documentation.AppleXcode.DeveloperTools/509.22.0</id>
+        <title type="text">Xcode 4.3.3 Developer Library</title>
+        <updated>2012-06-11T12:34:42-07:00</updated>
+        <content type="text">Xcode 4.3.3 Developer Library (v509.22.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="https://devimages.apple.com.edgekey.net/docsets/20120611/com.apple.ADC_Reference_Library.DeveloperTools.4_3_3.xar" length="262534970"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>509.22.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.3.3</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.3.999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2012-07-25:com.apple.adc.documentation.AppleXcode.DeveloperTools/506.64.0</id>
+        <title type="text">Xcode 4.4 Developer Library</title>
+        <updated>2012-07-25T15:30:56-07:00</updated>
+        <content type="text">Xcode 4.4 Developer Library (v506.64.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="https://devimages.apple.com.edgekey.net/docsets/20120725/com.apple.ADC_Reference_Library.DeveloperTools.4_4.xar" length="234733644"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>506.64.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.4.0</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.4.9999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2012-09-18:com.apple.adc.documentation.AppleXcode.DeveloperTools/507.40.0</id>
+        <title type="text">Xcode 4.5 Developer Library</title>
+        <updated>2012-09-18T18:42:10-07:00</updated>
+        <content type="text">Xcode 4.5 Developer Library (v507.40.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="https://devimages.apple.com.edgekey.net/docsets/20120919/com.apple.ADC_Reference_Library.DeveloperTools.4_5.xar" length="251530859"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>507.40.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.5.0</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.5.999</docset:maximumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2013-01-28:com.apple.adc.documentation.AppleXcode.DeveloperTools/509.17.0</id>
+        <title type="text">Xcode 4.6 doc set</title>
+        <updated>2013-01-28T09:39:24-08:00</updated>
+        <content type="text">Xcode 4.6 doc set (v509.17.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20130128/com.apple.ADC_Reference_Library.DeveloperTools.4_6.xar" length="233204764"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleXcode.DeveloperTools</docset:identifier>
+        <docset:version>509.17.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.6.0</docset:minimumXcodeVersion>
+        <docset:maximumXcodeVersion>4.6.999</docset:maximumXcodeVersion>
+    </entry>
+</feed>

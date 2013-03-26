@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+requirements_arch_lib_installed()
+{
+  pacman -Q "${1}" >/dev/null || return $?
+}
+
+requirements_arch_libs_install()
+{
+  __rvm_try_sudo pacman -Sy --needed --recursive --noconfirm "$@" || return $?
+}
+
+requirements_arch_libs_ensure()
+{
+  typeset -a packages_installed packages_missing packages_to_install
+  __rvm_filter_installed_packages arch "$@" || return $?
+}
+
+requirements_arch_run()
+{
+  case "$1" in
+    (update-system)
+      requirements_arch_libs_install pacman | __rvm_dotted "Updating pacman"
+      ;;
+    (rvm)
+      requirements_arch_libs_ensure bash curl git patch
+      ;;
+    (jruby*head)
+      requirements_arch_libs_ensure jdk7-openjdk jre7-openjdk curl apache-ant
+      ;;
+    (jruby*)
+      requirements_arch_libs_ensure jdk7-openjdk jre7-openjdk curl
+      ;;
+    (ir*)
+      requirements_arch_libs_ensure mono
+      ;;
+    (opal)
+      requirements_arch_libs_ensure nodejs
+      ;;
+    (*)
+      requirements_arch_libs_ensure gcc patch curl zlib readline libxml2 libxslt autoconf automake diffutils make libtool bison
+      ;;
+  esac
+}

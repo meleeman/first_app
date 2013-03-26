@@ -1,0 +1,5 @@
+2013-03-25 18:39:27.302 GoogleSoftwareUpdateAgent[475/0xb0289000] [lvl=3] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Failed to connect to system engine.
+2013-03-26 00:31:46.412 GoogleSoftwareUpdateAgent[1048/0xb030b000] [lvl=3] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Failed to connect to system engine.
+2013-03-26 11:03:01.549 GoogleSoftwareUpdateAgent[163/0xb0289000] [lvl=3] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Failed to connect to system engine.
+2013-03-26 16:51:54.777 GoogleSoftwareUpdateAgent[97793/0xb0289000] [lvl=3] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Failed to connect to system engine.
+2013-03-26 16:53:26.625 GoogleSoftwareUpdateAgent[97793/0xb0289000] [lvl=3] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedUpdate:errors:wantsReboot:] Finished with com.google.Chrome : errors 0, should reboot 0

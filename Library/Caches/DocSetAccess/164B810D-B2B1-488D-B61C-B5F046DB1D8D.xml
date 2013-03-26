@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>http://developer.apple.com/rss/com.apple.adc.documentation.AppleiPhone6.1.atom/20130128091103</id>
+    <title type="text">Apple iOS 6.1</title>
+    <rights>Copyright © 2013 Apple Inc. All rights reserved.</rights>
+    <link rel="self" href="http://developer.apple.com/rss/com.apple.adc.documentation.AppleiPhone6.1.atom"></link>
+    <docset:publisherName>Apple</docset:publisherName>
+    <docset:publisherID>com.apple.adc.documentation</docset:publisherID>
+    <updated>2013-01-29T17:47:56-08:00</updated>
+    <entry>
+        <id>tag:developer.apple.com,2013-01-28:com.apple.adc.documentation.AppleiOS6.1.iOSLibrary/42.17.0</id>
+        <title type="text">iOS 6.1 doc set</title>
+        <updated>2013-01-28T09:11:03-08:00</updated>
+        <content type="text">API reference and conceptual documentation for iOS 6.1.</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20130128/com.apple.adc.documentation.AppleiOS6.1.iOSLibrary.xar" length="535258109"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleiOS6.1.iOSLibrary</docset:identifier>
+        <docset:version>42.17.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.6.0</docset:minimumXcodeVersion>
+    </entry>
+    <entry>
+        <id>tag:developer.apple.com,2013-01-29:com.apple.adc.documentation.AppleiOS6.1.iOSLibrary/42.18.0</id>
+        <title type="text">iOS 6.1 doc set</title>
+        <updated>2013-01-29T17:47:56-08:00</updated>
+        <content type="text">API reference and conceptual documentation for iOS 6.1.</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://devimages.apple.com/docsets/20130130/com.apple.adc.documentation.AppleiOS6.1.iOSLibrary.xar" length="535236989"></link>
+        <docset:identifier>com.apple.adc.documentation.AppleiOS6.1.iOSLibrary</docset:identifier>
+        <docset:version>42.18.0</docset:version>
+        <docset:signer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:signer>
+        <docset:issuer>CN=ADC DocSet Update,O=Apple Inc.,OU=Apple Developer Connection,C=US</docset:issuer>
+        <docset:minimumXcodeVersion>4.6.0</docset:minimumXcodeVersion>
+    </entry>
+</feed>
